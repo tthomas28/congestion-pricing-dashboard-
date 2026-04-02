@@ -1,0 +1,64 @@
+{
+  "updatedAt": "2026-04-02T10:00:00Z",
+  "revenue": {
+    "updatedAt": "2025-03",
+    "totalMillions": 142.1,
+    "byMonth": [
+      { "month": "2025-01", "millions": 45.2 },
+      { "month": "2025-02", "millions": 47.8 },
+      { "month": "2025-03", "millions": 49.1 }
+    ]
+  },
+  "traffic": {
+    "updatedAt": "2025-03",
+    "baselineMonthlyAvg": 867500,
+    "reductionPct": 14.2,
+    "totalVehiclesAvoided": 358000,
+    "byMonth": [
+      { "month": "2025-01", "count": 762000, "reductionPct": 12.1 },
+      { "month": "2025-02", "count": 748000, "reductionPct": 13.8 },
+      { "month": "2025-03", "count": 743000, "reductionPct": 14.4 }
+    ]
+  },
+  "speeds": {
+    "updatedAt": "2025-03",
+    "baseline": "2024-12",
+    "avgMinutesSavedPerTrip": 7.8,
+    "crossings": [
+      { "name": "Brooklyn Bridge",   "beforeMph": 8.2,  "afterMph": 12.4 },
+      { "name": "Holland Tunnel",    "beforeMph": 10.1, "afterMph": 14.8 },
+      { "name": "Lincoln Tunnel",    "beforeMph": 9.4,  "afterMph": 13.2 },
+      { "name": "Battery Tunnel",    "beforeMph": 11.2, "afterMph": 15.6 },
+      { "name": "Queensboro Bridge", "beforeMph": 9.8,  "afterMph": 13.9 }
+    ]
+  },
+  "ridership": {
+    "updatedAt": "2025-03",
+    "totalSinceStartMillions": 562.5,
+    "priorYearSamePeriodMillions": 538.2,
+    "byMonth": [
+      { "month": "2025-01", "ridersMillions": 182.4, "priorYearMillions": 178.1 },
+      { "month": "2025-02", "ridersMillions": 188.2, "priorYearMillions": 180.6 },
+      { "month": "2025-03", "ridersMillions": 191.9, "priorYearMillions": 179.5 }
+    ]
+  },
+  "safety": {
+    "updatedAt": "2025-03-31",
+    "accidents": { "currentYearCount": 4200, "priorYearCount": 4950, "reductionPct": 15.2 },
+    "pedestrianFatalities": { "currentYearCount": 12, "priorYearCount": 19, "reductionPct": 36.8 },
+    "noiseComplaints": { "currentCount": 3800, "priorYearCount": 4900, "reductionPct": 22.4 },
+    "airQuality": {
+      "updatedAt": "2025-10-01",
+      "metric": "PM2.5 (µg/m³) — Manhattan",
+      "before": 9.8,
+      "after": 8.4,
+      "improvementPct": 14.3
+    }
+  },
+  "news": [
+    { "headline": "Congestion Pricing Delivers: Traffic Down, Revenue Up", "publication": "The New York Times", "date": "2025-03-15", "url": "https://nytimes.com" },
+    { "headline": "MTA Reports Ridership Surge Since Congestion Toll Launch", "publication": "Gothamist", "date": "2025-03-10", "url": "https://gothamist.com" },
+    { "headline": "Brooklyn Bridge Speeds Double Under Congestion Pricing", "publication": "Streetsblog NYC", "date": "2025-03-05", "url": "https://streetsblog.org" }
+  ],
+  "revenueAllocation": null
+}
