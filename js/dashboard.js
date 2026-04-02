@@ -43,7 +43,7 @@
     const minutesSaved = d.speeds?.avgMinutesSavedPerTrip != null
       ? `${fmt(d.speeds.avgMinutesSavedPerTrip, 1)} min` : '—';
     const ridershipDelta = (d.ridership?.totalSinceStartMillions != null && d.ridership?.priorYearSamePeriodMillions != null)
-      ? `+${fmt(d.ridership.totalSinceStartMillions - d.ridership.priorYearSamePeriodMillions, 0)}M` : '—';
+      ? (() => { const d2 = d.ridership.totalSinceStartMillions - d.ridership.priorYearSamePeriodMillions; return `${d2 >= 0 ? '+' : ''}${fmt(d2, 0)}M`; })() : '—';
     const fatalities = d.safety?.pedestrianFatalities?.reductionPct != null
       ? `↓${fmt(d.safety.pedestrianFatalities.reductionPct, 0)}%` : '—';
 
@@ -155,8 +155,8 @@
       `<div class="big-num">${fmt(r.totalSinceStartMillions, 0)}M</div>
        <div class="label">Total Riders Since Jan 2025</div>`;
     document.getElementById('ridership-vs-prior').innerHTML =
-      `<div class="big-num">+${fmt(delta, 0)}M</div>
-       <div class="label">More Riders vs Same Period Prior Year</div>`;
+      `<div class="big-num">${delta >= 0 ? '+' : ''}${fmt(delta, 0)}M</div>
+       <div class="label">${delta >= 0 ? 'More' : 'Fewer'} Riders vs Same Period Prior Year</div>`;
 
     new Chart(document.getElementById('ridershipChart'), {
       type: 'line',
@@ -227,11 +227,26 @@
   function renderNews(articles) {
     if (!articles?.length) return;
     const grid = document.getElementById('news-grid');
-    grid.innerHTML = articles.map(a => `
-      <div class="news-card">
-        <a href="${a.url}" target="_blank" rel="noopener">${a.headline}</a>
-        <div class="news-meta">${a.publication} · ${a.date}</div>
-      </div>`).join('');
+    grid.innerHTML = '';
+    articles.forEach(a => {
+      const card = document.createElement('div');
+      card.className = 'news-card';
+
+      const link = document.createElement('a');
+      // Only allow https:// URLs to prevent javascript: injection
+      link.href = a.url && a.url.startsWith('https://') ? a.url : '#';
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = a.headline;
+
+      const meta = document.createElement('div');
+      meta.className = 'news-meta';
+      meta.textContent = `${a.publication} · ${a.date}`;
+
+      card.appendChild(link);
+      card.appendChild(meta);
+      grid.appendChild(card);
+    });
   }
 
   // --- Revenue Allocation ---

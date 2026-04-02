@@ -26,7 +26,7 @@ async function fetchSafety() {
     }),
     socrataQuery('data.cityofnewyork.us', COMPLAINTS_DATASET, {
       '$select': 'count(*) AS complaint_count',
-      '$where': `complaint_type IN ('Noise - Vehicle', 'Noise - Helicopter') AND created_date >= '2025-01-01T00:00:00.000'`,
+      '$where': `complaint_type IN ('Noise - Vehicle', 'Noise - Helicopter') AND created_date >= '2025-01-01T00:00:00.000' AND created_date < '${cpEnd}'`,
       '$limit': '1',
     }),
     socrataQuery('data.cityofnewyork.us', COMPLAINTS_DATASET, {

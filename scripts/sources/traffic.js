@@ -20,6 +20,9 @@ async function fetchTraffic() {
   const preCp = parsed.filter(r => r.month < CP_START);
   const postCp = parsed.filter(r => r.month >= CP_START);
 
+  if (!preCp.length) throw new Error('Traffic API returned no pre-CP baseline rows');
+  if (!postCp.length) throw new Error('Traffic API returned no CP-era rows');
+
   const baselineMonthlyAvg = Math.round(
     preCp.reduce((sum, r) => sum + r.count, 0) / preCp.length
   );

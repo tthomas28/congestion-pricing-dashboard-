@@ -1,5 +1,4 @@
 const { socrataQuery } = require('../utils/socrata');
-const path = require('path');
 
 const DATASET_ID = '9jsb-u6ij'; // data.ny.gov — MTA CP Revenue; verify and update if needed
 
@@ -20,6 +19,8 @@ async function fetchRevenue() {
   const totalMillions = parseFloat(
     byMonth.reduce((sum, r) => sum + r.millions, 0).toFixed(1)
   );
+
+  if (!byMonth.length) throw new Error('Revenue API returned no rows');
 
   return {
     updatedAt: byMonth[byMonth.length - 1].month,
