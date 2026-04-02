@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-02T20:35:09.499Z",
+  "updatedAt": "2026-04-02T20:37:14.616Z",
   "traffic": {
     "updatedAt": "2026-02",
-    "reductionPct": 8.5,
-    "reductionNote": "Source: MTA 3-Month Progress Report (Apr 2025)",
+    "reductionPct": 10.1,
+    "reductionNote": "2026-02 vs 2025-02 (year-over-year)",
     "totalEntriesSinceStart": 203587182,
     "byMonth": [
       {

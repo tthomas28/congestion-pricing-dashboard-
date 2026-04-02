@@ -2,13 +2,6 @@ const { socrataQuery } = require('../utils/socrata');
 
 const DATASET_ID = 't6yz-b64h'; // data.ny.gov — MTA Congestion Relief Zone Vehicle Entries: Beginning 2025
 
-// MTA-reported average % reduction in vehicle entries since CP launched.
-// Source: MTA Congestion Pricing 3-Month Progress Report (April 2025).
-// A flat monthly baseline doesn't work across seasons (spring/summer traffic
-// naturally exceeds a January-derived baseline), so we use the MTA's published
-// figure for the summary stat and show raw monthly counts in the chart.
-const MTA_REPORTED_REDUCTION_PCT = 8.5;
-
 async function fetchTraffic() {
   const rows = await socrataQuery('data.ny.gov', DATASET_ID, {
     '$select': 'date_trunc_ym(toll_date) AS month, sum(crz_entries) AS total_crossings',
@@ -27,12 +20,34 @@ async function fetchTraffic() {
 
   // Drop the current partial month from the chart
   const completedMonths = allMonths.slice(0, -1);
+  const byMonthMap = Object.fromEntries(completedMonths.map(r => [r.month, r.count]));
+
+  // Year-over-year: find the most recent completed month that also has data 12 months prior
+  const yoyMonths = completedMonths
+    .map(r => {
+      const [y, m] = r.month.split('-').map(Number);
+      const priorKey = `${y - 1}-${String(m).padStart(2, '0')}`;
+      const priorCount = byMonthMap[priorKey];
+      if (priorCount == null) return null;
+      return {
+        month: r.month,
+        priorMonth: priorKey,
+        count: r.count,
+        priorCount,
+        reductionPct: parseFloat((((priorCount - r.count) / priorCount) * 100).toFixed(1)),
+      };
+    })
+    .filter(Boolean);
+
+  const latestYoy = yoyMonths.length ? yoyMonths[yoyMonths.length - 1] : null;
   const latest = completedMonths[completedMonths.length - 1];
 
   return {
     updatedAt: latest.month,
-    reductionPct: MTA_REPORTED_REDUCTION_PCT,
-    reductionNote: 'Source: MTA 3-Month Progress Report (Apr 2025)',
+    reductionPct: latestYoy?.reductionPct ?? null,
+    reductionNote: latestYoy
+      ? `${latestYoy.month} vs ${latestYoy.priorMonth} (year-over-year)`
+      : null,
     totalEntriesSinceStart: completedMonths.reduce((sum, r) => sum + r.count, 0),
     byMonth: completedMonths,
   };
