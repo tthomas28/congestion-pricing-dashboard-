@@ -81,29 +81,27 @@
   // --- Traffic ---
   function renderTraffic(t) {
     if (!t) return;
-    document.getElementById('traffic-meta').textContent = `Data as of: ${t.updatedAt} · Baseline: Nov–Dec 2024 avg (${fmt(t.baselineMonthlyAvg)} vehicles/month)`;
+    document.getElementById('traffic-meta').textContent =
+      `Data as of: ${t.updatedAt} · ${t.reductionNote || ''}`;
     document.getElementById('traffic-total-avoided').innerHTML =
-      `<div class="big-num">${fmt(t.totalVehiclesAvoided)}</div>
-       <div class="label">Total Vehicles Avoided Since Jan 2025</div>`;
+      `<div class="big-num">${fmt(t.totalEntriesSinceStart)}</div>
+       <div class="label">Total CRZ Vehicle Entries Since Jan 2025</div>`;
     document.getElementById('traffic-reduction-pct').innerHTML =
-      `<div class="big-num">${fmt(t.reductionPct, 1)}%</div>
-       <div class="label">Latest Monthly Reduction vs Baseline</div>`;
+      `<div class="big-num">↓${fmt(t.reductionPct, 1)}%</div>
+       <div class="label">Avg Vehicle Entry Reduction (MTA reported)</div>`;
 
     new Chart(document.getElementById('trafficChart'), {
-      type: 'line',
+      type: 'bar',
       data: {
         labels: t.byMonth.map(r => r.month),
         datasets: [{
-          label: 'Vehicle Reduction (%)',
-          data: t.byMonth.map(r => r.reductionPct),
-          borderColor: '#f5a623',
-          backgroundColor: 'rgba(245,166,35,0.1)',
-          tension: 0.3,
-          fill: true,
-          pointRadius: 4,
+          label: 'Monthly CRZ Entries',
+          data: t.byMonth.map(r => r.count),
+          backgroundColor: '#f5a623',
+          borderRadius: 4,
         }],
       },
-      options: chartOptions('% Reduction vs Baseline'),
+      options: chartOptions('Vehicles'),
     });
   }
 

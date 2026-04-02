@@ -2,35 +2,34 @@ jest.mock('../scripts/utils/socrata');
 const { socrataQuery } = require('../scripts/utils/socrata');
 const { fetchTraffic } = require('../scripts/sources/traffic');
 
-// Realistic mock values matching the actual API response format (ISO timestamps, 7–15M range)
-// Pre-CP baseline is hardcoded at 16,500,000 in traffic.js
 const MOCK_ROWS = [
-  { month: '2025-01-01T00:00:00.000', total_crossings: '14850000' }, // completed — 10% below baseline
-  { month: '2025-02-01T00:00:00.000', total_crossings: '14025000' }, // "current" partial month (excluded from latest)
+  { month: '2025-01-01T00:00:00.000', total_crossings: '14850000' },
+  { month: '2025-02-01T00:00:00.000', total_crossings: '14025000' }, // treated as current partial month
 ];
 
 describe('fetchTraffic', () => {
   beforeEach(() => socrataQuery.mockResolvedValue(MOCK_ROWS));
 
-  it('uses hardcoded PRE_CP_BASELINE_MONTHLY as baselineMonthlyAvg', async () => {
+  it('uses MTA-reported reductionPct (not computed from baseline)', async () => {
     const result = await fetchTraffic();
-    expect(result.baselineMonthlyAvg).toBe(16_500_000);
+    expect(result.reductionPct).toBe(8.5);
+    expect(result.reductionNote).toMatch(/MTA/);
   });
 
-  it('computes reductionPct against hardcoded baseline, using last completed month', async () => {
+  it('byMonth excludes the last (partial) month', async () => {
     const result = await fetchTraffic();
-    // last completed month = Jan 2025: (16500000-14850000)/16500000 * 100 = 10.00%
-    expect(result.reductionPct).toBeCloseTo(10.0, 1);
-    expect(result.updatedAt).toBe('2025-01');
-  });
-
-  it('byMonth excludes the last (partial) month, includes only completed months', async () => {
-    const result = await fetchTraffic();
-    // Feb is treated as the current partial month and excluded; only Jan remains
     expect(result.byMonth).toHaveLength(1);
-    const jan = result.byMonth.find(m => m.month === '2025-01');
-    expect(jan.count).toBe(14_850_000);
-    expect(jan.reductionPct).toBeCloseTo(10.0, 1);
+    expect(result.byMonth[0].month).toBe('2025-01');
     expect(result.byMonth.find(m => m.month === '2025-02')).toBeUndefined();
+  });
+
+  it('totalEntriesSinceStart sums completed months only', async () => {
+    const result = await fetchTraffic();
+    expect(result.totalEntriesSinceStart).toBe(14_850_000);
+  });
+
+  it('updatedAt is the last completed month', async () => {
+    const result = await fetchTraffic();
+    expect(result.updatedAt).toBe('2025-01');
   });
 });

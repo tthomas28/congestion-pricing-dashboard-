@@ -1,80 +1,66 @@
 {
-  "updatedAt": "2026-04-02T20:29:35.288Z",
+  "updatedAt": "2026-04-02T20:35:09.499Z",
   "traffic": {
     "updatedAt": "2026-02",
-    "baselineMonthlyAvg": 16500000,
-    "reductionPct": 27.17,
-    "totalVehiclesAvoided": 27412818,
+    "reductionPct": 8.5,
+    "reductionNote": "Source: MTA 3-Month Progress Report (Apr 2025)",
+    "totalEntriesSinceStart": 203587182,
     "byMonth": [
       {
         "month": "2025-01",
-        "count": 12738425,
-        "reductionPct": 22.8
+        "count": 12738425
       },
       {
         "month": "2025-02",
-        "count": 13365906,
-        "reductionPct": 18.99
+        "count": 13365906
       },
       {
         "month": "2025-03",
-        "count": 15284451,
-        "reductionPct": 7.37
+        "count": 15284451
       },
       {
         "month": "2025-04",
-        "count": 15056178,
-        "reductionPct": 8.75
+        "count": 15056178
       },
       {
         "month": "2025-05",
-        "count": 15900681,
-        "reductionPct": 3.63
+        "count": 15900681
       },
       {
         "month": "2025-06",
-        "count": 15072979,
-        "reductionPct": 8.65
+        "count": 15072979
       },
       {
         "month": "2025-07",
-        "count": 15157919,
-        "reductionPct": 8.13
+        "count": 15157919
       },
       {
         "month": "2025-08",
-        "count": 15004927,
-        "reductionPct": 9.06
+        "count": 15004927
       },
       {
         "month": "2025-09",
-        "count": 15118027,
-        "reductionPct": 8.38
+        "count": 15118027
       },
       {
         "month": "2025-10",
-        "count": 15746883,
-        "reductionPct": 4.56
+        "count": 15746883
       },
       {
         "month": "2025-11",
-        "count": 14902948,
-        "reductionPct": 9.68
+        "count": 14902948
       },
       {
         "month": "2025-12",
-        "count": 14853910,
-        "reductionPct": 9.98
+        "count": 14853910
       },
       {
         "month": "2026-01",
-        "count": 13366842,
-        "reductionPct": 18.99
+        "count": 13366842
       },
       {
         "month": "2026-02",
-        "count": 12017106,
-        "reductionPct": 27.17
+        "count": 12017106
       }
     ]
   },
