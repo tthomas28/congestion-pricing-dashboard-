@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T20:11:39.247Z",
+  "updatedAt": "2026-04-02T20:20:38.099Z",
   "traffic": {
     "updatedAt": "2026-02",
     "baselineMonthlyAvg": 16500000,
@@ -83,38 +83,101 @@
       }
     ]
   },
-  "revenue": null,
+  "revenue": {
+    "updatedAt": "2026-02",
+    "totalMillions": 857,
+    "byMonth": [
+      {
+        "month": "2025-01",
+        "millions": 53
+      },
+      {
+        "month": "2025-02",
+        "millions": 58.5
+      },
+      {
+        "month": "2025-03",
+        "millions": 66.8
+      },
+      {
+        "month": "2025-04",
+        "millions": 62.4
+      },
+      {
+        "month": "2025-05",
+        "millions": 67.3
+      },
+      {
+        "month": "2025-06",
+        "millions": 63.1
+      },
+      {
+        "month": "2025-07",
+        "millions": 64.2
+      },
+      {
+        "month": "2025-08",
+        "millions": 63.6
+      },
+      {
+        "month": "2025-09",
+        "millions": 65.4
+      },
+      {
+        "month": "2025-10",
+        "millions": 68.1
+      },
+      {
+        "month": "2025-11",
+        "millions": 61.7
+      },
+      {
+        "month": "2025-12",
+        "millions": 62.9
+      },
+      {
+        "month": "2026-01",
+        "millions": 49
+      },
+      {
+        "month": "2026-02",
+        "millions": 51
+      }
+    ],
+    "note": "Source: MTA Board Finance Committee reports and MTA press releases. Update monthly from https://new.mta.info/transparency/financial-information"
+  },
   "speeds": {
-    "updatedAt": "2025-01",
+    "updatedAt": "2025-03",
     "baseline": "2024-12",
     "crossings": [
       {
         "name": "Brooklyn Bridge",
-        "beforeMph": null,
-        "afterMph": null
+        "beforeMph": 7.4,
+        "afterMph": 9.3
       },
       {
         "name": "Holland Tunnel",
-        "beforeMph": null,
-        "afterMph": null
+        "beforeMph": 10.2,
+        "afterMph": 12.8
       },
       {
         "name": "Lincoln Tunnel",
-        "beforeMph": null,
-        "afterMph": null
+        "beforeMph": 9.8,
+        "afterMph": 12.1
       },
       {
         "name": "Battery Tunnel",
-        "beforeMph": null,
-        "afterMph": null
+        "beforeMph": 8.6,
+        "afterMph": 10.7
       },
       {
         "name": "Queensboro Bridge",
-        "beforeMph": null,
-        "afterMph": null
+        "beforeMph": 7.1,
+        "afterMph": 8.9
       }
     ],
-    "avgMinutesSavedPerTrip": 0
+    "avgMinutesSavedPerTrip": 3.5,
+    "note": "Source: NYC DOT Congestion Pricing Impact Study & MTA 3-Month Progress Report (Apr 2025)"
   },
   "ridership": {
     "updatedAt": "2026-02",
@@ -246,7 +309,7 @@
       "headline": "impacts after six months of New York City cordon pricing",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrSjI2Tzdoa3F3cF9tdllhT01oekdXYmZUYTBDVHlyOWNIOEJiOGcxeHhzR2RaUzA0U1llbVhTOVVrTU1jQ2JEMGhncW5Sb0RNSkVNRXJhYlRfbXcwcWlV?oc=5",
       "date": "2025-12-08",
-      "publication": "Nature"
+      "publication": "nature.com"
     },
     {
       "headline": "Data shows congestion pricing a success after a year",

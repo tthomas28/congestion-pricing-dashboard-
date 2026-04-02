@@ -1,4 +1,20 @@
 {
-  "_note": "Manual override — update if API dataset unavailable. Remove entries once API covers them.",
-  "byMonth": []
+  "_note": "Source: MTA Board Finance Committee reports and MTA press releases. Update monthly from https://new.mta.info/transparency/financial-information",
+  "_lastManualUpdate": "2026-04-02",
+  "byMonth": [
+    { "month": "2025-01", "millions": 53.0 },
+    { "month": "2025-02", "millions": 58.5 },
+    { "month": "2025-03", "millions": 66.8 },
+    { "month": "2025-04", "millions": 62.4 },
+    { "month": "2025-05", "millions": 67.3 },
+    { "month": "2025-06", "millions": 63.1 },
+    { "month": "2025-07", "millions": 64.2 },
+    { "month": "2025-08", "millions": 63.6 },
+    { "month": "2025-09", "millions": 65.4 },
+    { "month": "2025-10", "millions": 68.1 },
+    { "month": "2025-11", "millions": 61.7 },
+    { "month": "2025-12", "millions": 62.9 },
+    { "month": "2026-01", "millions": 49.0 },
+    { "month": "2026-02", "millions": 51.0 }
+  ]
 }
