@@ -1,0 +1,37 @@
+name: Weekly Data Update
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'   # 14:00 UTC = 9:00am ET (EST); adjust to '0 13 * * 1' during EDT
+  workflow_dispatch:         # Allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch and write data
+        run: node scripts/fetch-data.js
+        env:
+          SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          git diff --staged --quiet || git commit -m "chore: weekly data update $(date -u +'%Y-%m-%d')"
+          git push
