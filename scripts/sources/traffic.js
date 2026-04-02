@@ -38,11 +38,11 @@ async function fetchTraffic() {
     updatedAt: latest.month,
     baselineMonthlyAvg: PRE_CP_BASELINE_MONTHLY,
     reductionPct,
-    totalVehiclesAvoided: byMonth.reduce(
+    totalVehiclesAvoided: completedMonths.reduce(
       (sum, r) => sum + Math.max(0, PRE_CP_BASELINE_MONTHLY - r.count),
       0
     ),
-    byMonth,
+    byMonth: completedMonths, // exclude current partial month from chart
   };
 }
 

@@ -24,13 +24,13 @@ describe('fetchTraffic', () => {
     expect(result.updatedAt).toBe('2025-01');
   });
 
-  it('byMonth includes all returned months with count and per-month reductionPct', async () => {
+  it('byMonth excludes the last (partial) month, includes only completed months', async () => {
     const result = await fetchTraffic();
-    expect(result.byMonth).toHaveLength(2);
+    // Feb is treated as the current partial month and excluded; only Jan remains
+    expect(result.byMonth).toHaveLength(1);
     const jan = result.byMonth.find(m => m.month === '2025-01');
     expect(jan.count).toBe(14_850_000);
     expect(jan.reductionPct).toBeCloseTo(10.0, 1);
-    const feb = result.byMonth.find(m => m.month === '2025-02');
-    expect(feb.reductionPct).toBeCloseTo(15.0, 1);
+    expect(result.byMonth.find(m => m.month === '2025-02')).toBeUndefined();
   });
 });

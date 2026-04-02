@@ -27,12 +27,13 @@ async function fetchSafety() {
     }),
     socrataQuery('data.cityofnewyork.us', COMPLAINTS_DATASET, {
       '$select': 'count(*) AS complaint_count',
-      '$where': `complaint_type IN ('Noise - Vehicle', 'Noise - Helicopter') AND created_date >= '2025-01-01T00:00:00.000' AND created_date < '${cpEnd}'`,
+      // CRZ boundary: Manhattan below 60th St (lat < 40.769)
+      '$where': `complaint_type IN ('Noise - Vehicle', 'Noise - Helicopter') AND created_date >= '2025-01-01T00:00:00.000' AND created_date < '${cpEnd}' AND borough = 'MANHATTAN' AND latitude < 40.769`,
       '$limit': '1',
     }),
     socrataQuery('data.cityofnewyork.us', COMPLAINTS_DATASET, {
       '$select': 'count(*) AS complaint_count',
-      '$where': `complaint_type IN ('Noise - Vehicle', 'Noise - Helicopter') AND created_date >= '2024-01-01T00:00:00.000' AND created_date < '${priorEnd}'`,
+      '$where': `complaint_type IN ('Noise - Vehicle', 'Noise - Helicopter') AND created_date >= '2024-01-01T00:00:00.000' AND created_date < '${priorEnd}' AND borough = 'MANHATTAN' AND latitude < 40.769`,
       '$limit': '1',
     }),
   ]);

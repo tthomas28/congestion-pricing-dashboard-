@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-04-02T20:20:38.099Z",
+  "updatedAt": "2026-04-02T20:29:35.288Z",
   "traffic": {
     "updatedAt": "2026-02",
     "baselineMonthlyAvg": 16500000,
     "reductionPct": 27.17,
-    "totalVehiclesAvoided": 37611339,
+    "totalVehiclesAvoided": 27412818,
     "byMonth": [
       {
         "month": "2025-01",
@@ -75,11 +75,6 @@
         "month": "2026-02",
         "count": 12017106,
         "reductionPct": 27.17
-      },
-      {
-        "month": "2026-03",
-        "count": 6301479,
-        "reductionPct": 61.81
       }
     ]
   },
@@ -269,9 +264,9 @@
       "reductionPct": 14.78
     },
     "noiseComplaints": {
-      "currentCount": 76573,
-      "priorYearCount": 89729,
-      "reductionPct": 14.66
+      "currentCount": 7230,
+      "priorYearCount": 9185,
+      "reductionPct": 21.28
     }
   },
   "news": [
@@ -297,7 +292,7 @@
       "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsQ2lfemJoejU1OGhFTjNIaXNqOVVBSUh1NkNqTGtiYVFtM185azlRbjBvWmtJbEJKZF9ndTNMZXEzRkhIQnRTaFJxakZDaHJJdzU3aVBWVXhsWkl2el8yRlpTRC1vY2g5QWxINEVEM2dHcGNS?oc=5",
       "date": "2026-01-05",
-      "publication": "Futurism"
+      "publication": "futurism.com"
     },
     {
       "headline": "Congestion Pricing Wins in Court After Lengthy Battle With Trump",
