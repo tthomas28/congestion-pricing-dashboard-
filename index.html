@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYC Congestion Pricing: Results Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1>NYC Congestion Pricing: Results Dashboard</h1>
+      <p class="subtitle">Tracking the measurable impact of New York City's Central Business District Tolling Program, launched January 9, 2025.</p>
+      <p class="updated-at" id="updatedAt">Loading data…</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Hero Stats -->
+    <section id="hero-stats" class="hero-stats" aria-label="Key metrics at a glance"></section>
+
+    <!-- Revenue -->
+    <section id="revenue" class="dashboard-section">
+      <h2>Revenue Generated</h2>
+      <p class="section-meta" id="revenue-meta"></p>
+      <div class="stat-highlight" id="revenue-total"></div>
+      <div class="chart-wrap"><canvas id="revenueChart"></canvas></div>
+    </section>
+
+    <!-- Traffic -->
+    <section id="traffic" class="dashboard-section">
+      <h2>Vehicle Entry Reductions</h2>
+      <p class="section-meta" id="traffic-meta"></p>
+      <div class="stat-row">
+        <div class="stat-card" id="traffic-total-avoided"></div>
+        <div class="stat-card" id="traffic-reduction-pct"></div>
+      </div>
+      <div class="chart-wrap"><canvas id="trafficChart"></canvas></div>
+    </section>
+
+    <!-- Speed at Crossings -->
+    <section id="speeds" class="dashboard-section">
+      <h2>Speed Improvements at Key Crossings</h2>
+      <p class="section-meta" id="speeds-meta"></p>
+      <div class="chart-wrap"><canvas id="speedsChart"></canvas></div>
+    </section>
+
+    <!-- Time Savings -->
+    <section id="time-savings" class="dashboard-section">
+      <h2>Travel Time Savings</h2>
+      <div class="stat-highlight" id="time-savings-stat"></div>
+    </section>
+
+    <!-- Ridership -->
+    <section id="ridership" class="dashboard-section">
+      <h2>MTA Ridership</h2>
+      <p class="section-meta" id="ridership-meta"></p>
+      <div class="stat-row">
+        <div class="stat-card" id="ridership-total"></div>
+        <div class="stat-card" id="ridership-vs-prior"></div>
+      </div>
+      <div class="chart-wrap"><canvas id="ridershipChart"></canvas></div>
+    </section>
+
+    <!-- Safety & Quality of Life -->
+    <section id="safety" class="dashboard-section">
+      <h2>Safety &amp; Quality of Life</h2>
+      <p class="section-meta" id="safety-meta"></p>
+      <div class="metric-grid" id="safety-grid"></div>
+    </section>
+
+    <!-- In the News -->
+    <section id="news" class="dashboard-section">
+      <h2>In the News</h2>
+      <div class="news-grid" id="news-grid"></div>
+    </section>
+
+    <!-- Revenue Allocation (optional) -->
+    <section id="revenue-allocation" class="dashboard-section hidden">
+      <h2>How Revenue Is Being Spent</h2>
+      <div id="allocation-content"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Data sources:</strong>
+        <a href="https://data.ny.gov" target="_blank">data.ny.gov (MTA)</a> ·
+        <a href="https://data.cityofnewyork.us" target="_blank">NYC Open Data</a> ·
+        <a href="https://www.nyc.gov/html/dot/html/home/home.shtml" target="_blank">NYC DOT</a>
+      </p>
+      <p class="methodology">Methodology: Baseline traffic figures use Nov–Dec 2024 monthly averages. Speed comparisons use December 2024 as the pre-CP baseline. Ridership comparisons are year-over-year for the same calendar period. Accident and complaint counts compare the CP era (Jan 2025–present) to the same period in the prior year.</p>
+      <p><a href="https://github.com" target="_blank">View source on GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
