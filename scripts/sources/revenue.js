@@ -1,6 +1,9 @@
 const { socrataQuery } = require('../utils/socrata');
 
-const DATASET_ID = '9jsb-u6ij'; // data.ny.gov — MTA CP Revenue; verify and update if needed
+// NOTE: No public Socrata dataset for CRZ revenue exists on data.ny.gov as of April 2025.
+// This will fail gracefully (Promise.allSettled in orchestrator returns null → revenue section hidden).
+// Update DATASET_ID when MTA publishes the dataset.
+const DATASET_ID = '9jsb-u6ij'; // placeholder — replace when MTA publishes revenue dataset
 
 async function fetchRevenue() {
   const rows = await socrataQuery('data.ny.gov', DATASET_ID, {

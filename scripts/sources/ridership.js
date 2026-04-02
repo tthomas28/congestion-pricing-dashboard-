@@ -1,15 +1,14 @@
 const { socrataQuery } = require('../utils/socrata');
 
-const DATASET_ID = 'wujg-7c2s'; // data.ny.gov — MTA Subway Hourly Ridership
+const DATASET_ID = 'xfre-bxip'; // data.ny.gov — MTA Monthly Ridership/Traffic Data: Beginning January 2008
 const CP_START = '2025-01';
 
 async function fetchRidership() {
   const rows = await socrataQuery('data.ny.gov', DATASET_ID, {
-    '$select': 'date_trunc_ym(transit_timestamp) AS month, sum(ridership) AS total_ridership',
-    '$group': 'month',
+    '$select': 'Month AS month, Ridership AS total_ridership',
     '$order': 'month ASC',
     '$limit': '500',
-    '$where': "transit_timestamp >= '2024-01-01'",
+    '$where': "Agency = 'Subway' AND Month >= '2024-01-01'",
   });
 
   const parsed = rows.map(r => ({

@@ -10,8 +10,9 @@ function reductionPct(current, prior) {
 
 async function fetchSafety() {
   const now = new Date();
-  const cpEnd = now.toISOString();
-  const priorEnd = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate()).toISOString();
+  // Socrata floating_timestamp fields don't accept the UTC 'Z' suffix — use plain timestamp
+  const cpEnd = now.toISOString().slice(0, 10) + 'T23:59:59.000';
+  const priorEnd = `${now.getFullYear() - 1}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}T23:59:59.000`;
 
   const [crashCurrent, crashPrior, noise311Current, noise311Prior] = await Promise.all([
     socrataQuery('data.cityofnewyork.us', CRASH_DATASET, {

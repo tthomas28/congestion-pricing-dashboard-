@@ -2,34 +2,35 @@ jest.mock('../scripts/utils/socrata');
 const { socrataQuery } = require('../scripts/utils/socrata');
 const { fetchTraffic } = require('../scripts/sources/traffic');
 
+// Realistic mock values matching the actual API response format (ISO timestamps, 7–15M range)
+// Pre-CP baseline is hardcoded at 16,500,000 in traffic.js
 const MOCK_ROWS = [
-  { month: '2024-11', total_crossings: '880000' },
-  { month: '2024-12', total_crossings: '855000' },
-  { month: '2025-01', total_crossings: '762000' },
-  { month: '2025-02', total_crossings: '748000' },
+  { month: '2025-01-01T00:00:00.000', total_crossings: '14850000' }, // completed — 10% below baseline
+  { month: '2025-02-01T00:00:00.000', total_crossings: '14025000' }, // "current" partial month (excluded from latest)
 ];
 
 describe('fetchTraffic', () => {
   beforeEach(() => socrataQuery.mockResolvedValue(MOCK_ROWS));
 
-  it('returns totalVehiclesAvoided and reductionPct relative to Dec 2024 baseline', async () => {
+  it('uses hardcoded PRE_CP_BASELINE_MONTHLY as baselineMonthlyAvg', async () => {
     const result = await fetchTraffic();
-    // baseline = avg of Nov+Dec 2024 = (880000+855000)/2 = 867500
-    expect(result.baselineMonthlyAvg).toBe(867500);
-    expect(result.reductionPct).toBeCloseTo(13.78, 1);
-    expect(result.byMonth).toHaveLength(2); // only CP months (2025+)
-    expect(result.byMonth[0].month).toBe('2025-01');
+    expect(result.baselineMonthlyAvg).toBe(16_500_000);
   });
 
-  it('byMonth entries include count and reductionPct', async () => {
+  it('computes reductionPct against hardcoded baseline, using last completed month', async () => {
     const result = await fetchTraffic();
+    // last completed month = Jan 2025: (16500000-14850000)/16500000 * 100 = 10.00%
+    expect(result.reductionPct).toBeCloseTo(10.0, 1);
+    expect(result.updatedAt).toBe('2025-01');
+  });
+
+  it('byMonth includes all returned months with count and per-month reductionPct', async () => {
+    const result = await fetchTraffic();
+    expect(result.byMonth).toHaveLength(2);
     const jan = result.byMonth.find(m => m.month === '2025-01');
-    expect(jan.count).toBe(762000);
-    expect(jan.reductionPct).toBeCloseTo(12.17, 1);
-  });
-
-  it('sets updatedAt to the latest month in the dataset', async () => {
-    const result = await fetchTraffic();
-    expect(result.updatedAt).toBe('2025-02');
+    expect(jan.count).toBe(14_850_000);
+    expect(jan.reductionPct).toBeCloseTo(10.0, 1);
+    const feb = result.byMonth.find(m => m.month === '2025-02');
+    expect(feb.reductionPct).toBeCloseTo(15.0, 1);
   });
 });
