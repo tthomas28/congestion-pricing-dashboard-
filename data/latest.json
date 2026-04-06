@@ -1,69 +1,6 @@
 {
-  "updatedAt": "2026-04-02T20:37:14.616Z",
-  "traffic": {
-    "updatedAt": "2026-02",
-    "reductionPct": 10.1,
-    "reductionNote": "2026-02 vs 2025-02 (year-over-year)",
-    "totalEntriesSinceStart": 203587182,
-    "byMonth": [
-      {
-        "month": "2025-01",
-        "count": 12738425
-      },
-      {
-        "month": "2025-02",
-        "count": 13365906
-      },
-      {
-        "month": "2025-03",
-        "count": 15284451
-      },
-      {
-        "month": "2025-04",
-        "count": 15056178
-      },
-      {
-        "month": "2025-05",
-        "count": 15900681
-      },
-      {
-        "month": "2025-06",
-        "count": 15072979
-      },
-      {
-        "month": "2025-07",
-        "count": 15157919
-      },
-      {
-        "month": "2025-08",
-        "count": 15004927
-      },
-      {
-        "month": "2025-09",
-        "count": 15118027
-      },
-      {
-        "month": "2025-10",
-        "count": 15746883
-      },
-      {
-        "month": "2025-11",
-        "count": 14902948
-      },
-      {
-        "month": "2025-12",
-        "count": 14853910
-      },
-      {
-        "month": "2026-01",
-        "count": 13366842
-      },
-      {
-        "month": "2026-02",
-        "count": 12017106
-      }
-    ]
-  },
+  "updatedAt": "2026-04-06T16:32:04.815Z",
+  "traffic": null,
   "revenue": {
     "updatedAt": "2026-02",
     "totalMillions": 857,
@@ -127,134 +64,9 @@
     ],
     "note": "Source: MTA Board Finance Committee reports and MTA press releases. Update monthly from https://new.mta.info/transparency/financial-information"
   },
-  "speeds": {
-    "updatedAt": "2025-03",
-    "baseline": "2024-12",
-    "crossings": [
-      {
-        "name": "Brooklyn Bridge",
-        "beforeMph": 7.4,
-        "afterMph": 9.3
-      },
-      {
-        "name": "Holland Tunnel",
-        "beforeMph": 10.2,
-        "afterMph": 12.8
-      },
-      {
-        "name": "Lincoln Tunnel",
-        "beforeMph": 9.8,
-        "afterMph": 12.1
-      },
-      {
-        "name": "Battery Tunnel",
-        "beforeMph": 8.6,
-        "afterMph": 10.7
-      },
-      {
-        "name": "Queensboro Bridge",
-        "beforeMph": 7.1,
-        "afterMph": 8.9
-      }
-    ],
-    "avgMinutesSavedPerTrip": 3.5,
-    "note": "Source: NYC DOT Congestion Pricing Impact Study & MTA 3-Month Progress Report (Apr 2025)"
-  },
-  "ridership": {
-    "updatedAt": "2026-02",
-    "totalSinceStartMillions": 1475.8,
-    "priorYearSamePeriodMillions": 1387.6,
-    "byMonth": [
-      {
-        "month": "2025-01",
-        "ridersMillions": 98.8,
-        "priorYearMillions": 91.5
-      },
-      {
-        "month": "2025-02",
-        "ridersMillions": 94,
-        "priorYearMillions": 90.3
-      },
-      {
-        "month": "2025-03",
-        "ridersMillions": 108.3,
-        "priorYearMillions": 100
-      },
-      {
-        "month": "2025-04",
-        "ridersMillions": 110,
-        "priorYearMillions": 100.2
-      },
-      {
-        "month": "2025-05",
-        "ridersMillions": 113.3,
-        "priorYearMillions": 105.9
-      },
-      {
-        "month": "2025-06",
-        "ridersMillions": 106.4,
-        "priorYearMillions": 96.6
-      },
-      {
-        "month": "2025-07",
-        "ridersMillions": 106,
-        "priorYearMillions": 93.9
-      },
-      {
-        "month": "2025-08",
-        "ridersMillions": 102.1,
-        "priorYearMillions": 92.9
-      },
-      {
-        "month": "2025-09",
-        "ridersMillions": 110.4,
-        "priorYearMillions": 103.5
-      },
-      {
-        "month": "2025-10",
-        "ridersMillions": 115.8,
-        "priorYearMillions": 113.4
-      },
-      {
-        "month": "2025-11",
-        "ridersMillions": 106.1,
-        "priorYearMillions": 102.6
-      },
-      {
-        "month": "2025-12",
-        "ridersMillions": 110.5,
-        "priorYearMillions": 104
-      },
-      {
-        "month": "2026-01",
-        "ridersMillions": 99.5,
-        "priorYearMillions": 98.8
-      },
-      {
-        "month": "2026-02",
-        "ridersMillions": 94.6,
-        "priorYearMillions": 94
-      }
-    ]
-  },
-  "safety": {
-    "updatedAt": "2026-04-02",
-    "accidents": {
-      "currentYearCount": 104931,
-      "priorYearCount": 111327,
-      "reductionPct": 5.75
-    },
-    "pedestrianFatalities": {
-      "currentYearCount": 271,
-      "priorYearCount": 318,
-      "reductionPct": 14.78
-    },
-    "noiseComplaints": {
-      "currentCount": 7230,
-      "priorYearCount": 9185,
-      "reductionPct": 21.28
-    }
-  },
+  "speeds": null,
+  "ridership": null,
+  "safety": null,
   "news": [
     {
       "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
@@ -266,13 +78,13 @@
       "headline": "NYC congestion pricing results one year later: Has the toll been a success?",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzRCMFBtb1FlQm1NYVRPdXhUX0tkTUJDOTg0TFYzazVzTlNHRGVNU1JhLXE0cV9aTXZXb3N3OU9QVDZvZmcwRnc2Z2lsby1uMHlZcXRhVFhTaVZaRGNNZV9SWERELUhCQ180UnU4VUdhdUMyZEZjeVVKcEh4aHRGWVROYmotY09iaUh4QkxycVk2R0NNOExxeWp0V0FQQdIBowFBVV95cUxPaXpEQmIxVXFjeDlad2pzOWxVV0NlV0gyZll4VDRLM2Fwd0hjZmhFWGFVbmxxaEZVWkhycXozWENEMXFiX1VYYWNIdkxCMDgtSW5yTGZ2V3FSR1Q3OWRvS2I0djBSTVB5bTVVU28wWEltLXE2UWw5ZkRqSUhuZ3RkTHNBVm1ReVl4OU90ODZwQkRLSGllSDlnNFR4SzNOSnZLZHZn?oc=5",
       "date": "2026-01-05",
-      "publication": "ABC7 New York"
+      "publication": "abc7ny.com"
     },
     {
-      "headline": "Congestion pricing: NYC subways saw millions more riders during Manhattan toll program’s first year, transit group finds",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeEN5ckdKZjZIWU05X05wRGJxLXJVYWdVRl9pZ1hQa21veEYxY1dZWUtSRU1ia0trZ05WNXgzZTlxVzlEcFhsZ2FreTRXZTRrS0FUS2c4R050S3BqQWJJTEVxaU1tWWRSYWhHOHRDQVBOUEhiWll0RnFzV1g4VlZBWmx5a0ZqUkMwR09ITjNBdw?oc=5",
-      "date": "2026-03-18",
-      "publication": "amNewYork"
+      "headline": "New York congestion pricing at 6 months: the results",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1NWTHQzSTZmTzBxMGlrcTBDVVo1OWtHT3VCMWNuWDE0Q21hWV81Z0tGdFRRZEhWWmx2NzRYUXNjWXJBdXhWQkR4a0U5OGRUQUpSWldFU2VaSUxGekZTQ1RxZlFMN3FMWEpmMUlVbjJkRmpZM1lqN09nbGJzeUNWSUxQVmdPYTlveTNNaWlsOUY1dw?oc=5",
+      "date": "2025-07-07",
+      "publication": "Smart Cities Dive"
     },
     {
       "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
@@ -290,31 +102,31 @@
       "headline": "impacts after six months of New York City cordon pricing",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrSjI2Tzdoa3F3cF9tdllhT01oekdXYmZUYTBDVHlyOWNIOEJiOGcxeHhzR2RaUzA0U1llbVhTOVVrTU1jQ2JEMGhncW5Sb0RNSkVNRXJhYlRfbXcwcWlV?oc=5",
       "date": "2025-12-08",
-      "publication": "nature.com"
+      "publication": "Nature"
     },
     {
-      "headline": "Data shows congestion pricing a success after a year",
+      "headline": "After a year, data shows con­gestion pricing a success, busi­nesses say mixed results",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjVUeGdQZUY3S1QtcTN0eHlmSDVlM3RRZTFSSHVoWWU4dnB0dXd0V1N6Q2RScmFLN24wLUtFeVY2bVZ0Yko3T0xCTU55MEpadnZ4RzhrVnNHYkROeEdneUduMHJjQnoxSUo5a0NuMHkzUzNXaXR3Y01uRDJUbXJJLUNJZi1ib0x1dkZYTmt2al9acEloLS1oalM3aVB3MXg0ckhabTdGSkVILTBFZS1DQ3l1dFZQTHc?oc=5",
       "date": "2025-12-30",
       "publication": "Spectrum News NY1"
+    },
+    {
+      "headline": "Congestion pricing has transformed New York City streets – but can it survive Trump?",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZmgxTEZHd0FVUHBmZnRDR3IwWFptdG55TUlyVWlURkkxTndaZmJUYVdRWFFUZnVURnZLemlXc2xVVTZaTXlvaVJXQzgxTVBrclpyX0VmUDNNanh5MlNNekMwQzJBdW5MYWd1aFRGdWtxWWNyYVFwVjBoX3V2cmVNV0VGc0FqYkhoVk5IN2R5aHdqY0pF?oc=5",
+      "date": "2025-06-16",
+      "publication": "The Guardian"
+    },
+    {
+      "headline": "NYC congestion pricing’s winners and losers",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdVFCNDJLVEVBdnRfWVh5VzFlR1VRa3ZZTFZob1JZbmZxVERNMmJQS2ZPR3dhcTVPMjU3TmxhM19KY2NhMlFPanFnM3F0Qmt2TnR4WWx6aW90RDhfWnNIOHZNWDhsWDFUWTdMRjZRZ29qZnM3R1BWaU0zNWRtUm8xeXJwQjl2eG5vUUVvQmhiWlbSAZYBQVVfeXFMTW15Q2cyUVltTTZiYVE1LXBnS3ZfWnFZT0ZYcmlSd1cyZE5TZlNXOHFoMnJPcFM4dWs0Uy1yRW9Ed1M0RUdocWFtTVI2ZE5tN0lZTmZSVXdvVGlPXzc0ZE41MHFnSU9jNHpKUk1aSlRScGNBRVNmcVdBdnhIdllFenhZYWcyN1NTVmF3ZHotZG4wOEdNNzVn?oc=5",
+      "date": "2025-08-29",
+      "publication": "The Hill"
     },
     {
       "headline": "One Year later, NYC congestion pricing Is delivering measurable results",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbEtvd2Z2S2hyclhjdlFzTURYc3JQMXYyb3QycmpTT2phZU9YZlNfYTN2VXRuMTFEeGtYTHg2R1hCTXR0VExta0JWSE42aUtaQllvOFc3RXNXU2xZUTJqd0doLXo2dlVET21pQXc4amZCY0ZYMGdmd3NzWm5CS1poQVoxTjlFdkptVXp4LVVBVkIxczZQaXdTaEZGVlBvTU9QNUxyRE53Y0RnazA5?oc=5",
       "date": "2026-01-05",
       "publication": "Logistics Management"
-    },
-    {
-      "headline": "NYC congestion pricing cuts air pollution by 22% in six months",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXRxenJyOGhJdmF3U1VfeTRUS05tQUdWNzVUdzhKXzdDSVk5VUVYZExXYU5vVmo2ZV9iMGlkRFFIaEp0WFBNaEZPekJ5QVR1dGJaWVhSNjBKbmM5NDFYaU5CYUc0S0p3bzRKZ1FEbTVrdlpESVNmZy1Qanh5Wll6cmQ5bDI5NlVJdUl6MkZiMUE1c0ZSTXBRT1ZwQVlFdlM3SWpvZ3lqejhQa3d1M0FZOWF3?oc=5",
-      "date": "2025-12-09",
-      "publication": "AirQualityNews"
-    },
-    {
-      "headline": "NYC congestion zone air pollution measure fell 22% in 6 months",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQajR0ZzQtdG9ycTRXSFpON095YzJLRVJkREZ3bE0tcXBxYW0wYzVwR1o4cnVRN1FWTVpobkhWRzZsMUtMczMzYWhFTTlzX2VaOFpTbW9fZHNKaWl5TUtBdFlmUWpvWF9FY3Z2cnc2cHJfazVTX0xaVjJXVFUzS1hnMDNvVGFJcHMtSVRKZ0o1ZTNpY29vZDg3T3JwSkdBRGJ0MW5XTmVHNA?oc=5",
-      "date": "2025-12-17",
-      "publication": "Smart Cities Dive"
     }
   ],
   "revenueAllocation": null
