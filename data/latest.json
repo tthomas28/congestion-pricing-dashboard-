@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-04-08T20:28:57.262Z",
+  "updatedAt": "2026-04-08T20:38:10.200Z",
   "traffic": {
     "updatedAt": "2026-02",
     "reductionPct": 9.7,
     "reductionNote": "2026-02 vs 2025-02 (year-over-year)",
-    "totalEntriesAvoidedYoy": 662679,
-    "yoyPeriod": "2026-01–2026-02",
+    "estimatedTotalAvoided": 30295000,
     "byMonth": [
       {
         "month": "2025-01",

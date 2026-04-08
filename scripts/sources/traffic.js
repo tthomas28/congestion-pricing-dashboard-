@@ -42,10 +42,14 @@ async function fetchTraffic() {
   const latestYoy = yoyMonths.length ? yoyMonths[yoyMonths.length - 1] : null;
   const latest = completedMonths[completedMonths.length - 1];
 
-  const totalEntriesAvoidedYoy = yoyMonths.reduce((sum, r) => sum + (r.priorCount - r.count), 0);
-  const yoyPeriod = yoyMonths.length
-    ? `${yoyMonths[0].month}–${yoyMonths[yoyMonths.length - 1].month}`
-    : null;
+  // Estimate total avoided entries since the program launch (Jan 9, 2025).
+  // The CRZ dataset has no pre-CP baseline, so we use the MTA/NYT-reported
+  // average of ~73k fewer daily entries as the per-day avoidance rate.
+  const CP_START_DATE = new Date('2025-01-09');
+  const [ly, lm] = latest.month.split('-').map(Number);
+  const dataThrough = new Date(ly, lm, 0); // last day of the final completed month
+  const daysSinceStart = Math.round((dataThrough - CP_START_DATE) / (1000 * 60 * 60 * 24));
+  const estimatedTotalAvoided = daysSinceStart * 73_000;
 
   return {
     updatedAt: latest.month,
@@ -53,8 +57,7 @@ async function fetchTraffic() {
     reductionNote: latestYoy
       ? `${latestYoy.month} vs ${latestYoy.priorMonth} (year-over-year)`
       : null,
-    totalEntriesAvoidedYoy,
-    yoyPeriod,
+    estimatedTotalAvoided,
     byMonth: completedMonths,
   };
 }
