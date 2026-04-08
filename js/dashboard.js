@@ -83,9 +83,15 @@
     if (!t) return;
     document.getElementById('traffic-meta').textContent =
       `Data as of: ${t.updatedAt} · ${t.reductionNote || ''}`;
+    const fmtYM = ym => new Date(+ym.slice(0, 4), +ym.slice(5, 7) - 1)
+      .toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+    const [yoyStart, yoyEnd] = t.yoyPeriod ? t.yoyPeriod.split('–') : ['', ''];
+    const yoyLabel = yoyStart === yoyEnd
+      ? `${fmtYM(yoyStart)} vs. ${fmtYM(`${+yoyStart.slice(0,4)-1}${yoyStart.slice(4)}`)}`
+      : `${fmtYM(yoyStart)}–${fmtYM(yoyEnd)} vs. same months prior year`;
     document.getElementById('traffic-total-avoided').innerHTML =
       `<div class="big-num">${fmt(t.totalEntriesAvoidedYoy)}</div>
-       <div class="label">Vehicle Entries Avoided vs. Prior Year (${t.yoyPeriod})</div>`;
+       <div class="label">Vehicle Entries Avoided · ${yoyLabel}</div>`;
     document.getElementById('traffic-reduction-pct').innerHTML =
       `<div class="big-num">↓${fmt(t.reductionPct, 1)}%</div>
        <div class="label">Avg Vehicle Entry Reduction (MTA reported)</div>`;
