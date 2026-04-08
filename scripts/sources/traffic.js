@@ -42,13 +42,19 @@ async function fetchTraffic() {
   const latestYoy = yoyMonths.length ? yoyMonths[yoyMonths.length - 1] : null;
   const latest = completedMonths[completedMonths.length - 1];
 
+  const totalEntriesAvoidedYoy = yoyMonths.reduce((sum, r) => sum + (r.priorCount - r.count), 0);
+  const yoyPeriod = yoyMonths.length
+    ? `${yoyMonths[0].month}–${yoyMonths[yoyMonths.length - 1].month}`
+    : null;
+
   return {
     updatedAt: latest.month,
     reductionPct: latestYoy?.reductionPct ?? null,
     reductionNote: latestYoy
       ? `${latestYoy.month} vs ${latestYoy.priorMonth} (year-over-year)`
       : null,
-    totalEntriesSinceStart: completedMonths.reduce((sum, r) => sum + r.count, 0),
+    totalEntriesAvoidedYoy,
+    yoyPeriod,
     byMonth: completedMonths,
   };
 }

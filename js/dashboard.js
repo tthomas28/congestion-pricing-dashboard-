@@ -84,8 +84,8 @@
     document.getElementById('traffic-meta').textContent =
       `Data as of: ${t.updatedAt} · ${t.reductionNote || ''}`;
     document.getElementById('traffic-total-avoided').innerHTML =
-      `<div class="big-num">${fmt(t.totalEntriesSinceStart)}</div>
-       <div class="label">Total CRZ Vehicle Entries Since Jan 2025</div>`;
+      `<div class="big-num">${fmt(t.totalEntriesAvoidedYoy)}</div>
+       <div class="label">Vehicle Entries Avoided vs. Prior Year (${t.yoyPeriod})</div>`;
     document.getElementById('traffic-reduction-pct').innerHTML =
       `<div class="big-num">↓${fmt(t.reductionPct, 1)}%</div>
        <div class="label">Avg Vehicle Entry Reduction (MTA reported)</div>`;
