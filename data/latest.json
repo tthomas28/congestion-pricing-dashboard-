@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-04-08T20:38:10.200Z",
+  "updatedAt": "2026-04-13T17:42:17.958Z",
   "traffic": {
-    "updatedAt": "2026-02",
-    "reductionPct": 9.7,
-    "reductionNote": "2026-02 vs 2025-02 (year-over-year)",
-    "estimatedTotalAvoided": 30295000,
+    "updatedAt": "2026-03",
+    "reductionPct": 5.5,
+    "reductionNote": "2026-03 vs 2025-03 (year-over-year)",
+    "estimatedTotalAvoided": 32558000,
     "byMonth": [
       {
         "month": "2025-01",
@@ -60,7 +60,11 @@
       },
       {
         "month": "2026-02",
-        "count": 12074823
+        "count": 12071383
+      },
+      {
+        "month": "2026-03",
+        "count": 14437042
       }
     ]
   },
@@ -269,22 +273,22 @@
       "publication": "ABC7 New York"
     },
     {
+      "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsQ2lfemJoejU1OGhFTjNIaXNqOVVBSUh1NkNqTGtiYVFtM185azlRbjBvWmtJbEJKZF9ndTNMZXEzRkhIQnRTaFJxakZDaHJJdzU3aVBWVXhsWkl2el8yRlpTRC1vY2g5QWxINEVEM2dHcGNS?oc=5",
+      "date": "2026-01-05",
+      "publication": "Futurism"
+    },
+    {
       "headline": "Congestion Pricing, One Year In: A Qualified Success",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnJwOVYxekkybGtWMjZKbGlCeThGa25DRFFYV203dkI5RlZTaDlaZm1FNGJOV2hKWXgwNU1uSnJyUjY5MXlUdkdHaURRQ2Y4b0l4RTUxWER1UXZTRnZ2ZlcwVk1QcHZQMW9hTHdiVnVxd3ZQNmE5NHFKUXE5YzQwNWpnZmRNQQ?oc=5",
       "date": "2026-01-02",
       "publication": "Vital City"
     },
     {
-      "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsQ2lfemJoejU1OGhFTjNIaXNqOVVBSUh1NkNqTGtiYVFtM185azlRbjBvWmtJbEJKZF9ndTNMZXEzRkhIQnRTaFJxakZDaHJJdzU3aVBWVXhsWkl2el8yRlpTRC1vY2g5QWxINEVEM2dHcGNS?oc=5",
-      "date": "2026-01-05",
-      "publication": "futurism.com"
-    },
-    {
       "headline": "impacts after six months of New York City cordon pricing",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrSjI2Tzdoa3F3cF9tdllhT01oekdXYmZUYTBDVHlyOWNIOEJiOGcxeHhzR2RaUzA0U1llbVhTOVVrTU1jQ2JEMGhncW5Sb0RNSkVNRXJhYlRfbXcwcWlV?oc=5",
       "date": "2025-12-08",
-      "publication": "nature.com"
+      "publication": "Nature"
     },
     {
       "headline": "After a year, data shows con­gestion pricing a success, busi­nesses say mixed results",
@@ -299,10 +303,10 @@
       "publication": "Logistics Management"
     },
     {
-      "headline": "NYC congestion pricing cuts air pollution by 22% in six months",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXRxenJyOGhJdmF3U1VfeTRUS05tQUdWNzVUdzhKXzdDSVk5VUVYZExXYU5vVmo2ZV9iMGlkRFFIaEp0WFBNaEZPekJ5QVR1dGJaWVhSNjBKbmM5NDFYaU5CYUc0S0p3bzRKZ1FEbTVrdlpESVNmZy1Qanh5Wll6cmQ5bDI5NlVJdUl6MkZiMUE1c0ZSTXBRT1ZwQVlFdlM3SWpvZ3lqejhQa3d1M0FZOWF3?oc=5",
-      "date": "2025-12-09",
-      "publication": "AirQualityNews"
+      "headline": "Congestion Pricing: Hochul celebrates Manhattan toll program’s ‘extraordinary’ results on its one-year anniversary",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU1V0OXJEYjR3RVQ3aTBkWDlSMmVoOUFUbTRfci1JRjAyRWhNZjBRYkY1VDM4d2g4UzE3QjR3WUxZNlZ3V2hwbmo5Z2NSUkFrOWRPd0RQMEZ0cnZmcDNmNzQ2X0FNWUdETDNza0NBV2NCcVhpczRQUEZ0NkpxdFdxNw?oc=5",
+      "date": "2026-01-05",
+      "publication": "amNewYork"
     },
     {
       "headline": "NYC congestion zone air pollution measure fell 22% in 6 months",
@@ -311,10 +315,10 @@
       "publication": "Smart Cities Dive"
     },
     {
-      "headline": "Congestion Pricing: Hochul celebrates Manhattan toll program’s ‘extraordinary’ results on its one-year anniversary",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU1V0OXJEYjR3RVQ3aTBkWDlSMmVoOUFUbTRfci1JRjAyRWhNZjBRYkY1VDM4d2g4UzE3QjR3WUxZNlZ3V2hwbmo5Z2NSUkFrOWRPd0RQMEZ0cnZmcDNmNzQ2X0FNWUdETDNza0NBV2NCcVhpczRQUEZ0NkpxdFdxNw?oc=5",
-      "date": "2026-01-05",
-      "publication": "amNewYork"
+      "headline": "NYC congestion pricing cuts air pollution by 22% in six months",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXRxenJyOGhJdmF3U1VfeTRUS05tQUdWNzVUdzhKXzdDSVk5VUVYZExXYU5vVmo2ZV9iMGlkRFFIaEp0WFBNaEZPekJ5QVR1dGJaWVhSNjBKbmM5NDFYaU5CYUc0S0p3bzRKZ1FEbTVrdlpESVNmZy1Qanh5Wll6cmQ5bDI5NlVJdUl6MkZiMUE1c0ZSTXBRT1ZwQVlFdlM3SWpvZ3lqejhQa3d1M0FZOWF3?oc=5",
+      "date": "2025-12-09",
+      "publication": "AirQualityNews"
     }
   ],
   "revenueAllocation": null
