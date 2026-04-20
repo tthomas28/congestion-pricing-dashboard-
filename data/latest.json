@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-13T17:42:17.958Z",
+  "updatedAt": "2026-04-20T17:38:58.408Z",
   "traffic": {
     "updatedAt": "2026-03",
     "reductionPct": 5.5,
@@ -261,16 +261,16 @@
   },
   "news": [
     {
-      "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q1OUs4Z0dLMWJJaDF1YlMtc1A5WTRpMFlDcXVuT0RhYlR2dTNwN0ctUGhyTGNIbk1UTnVkLWd0bWNCZ1dQd0paWDZITURkRW9QRXBlaGtwaDVPQXU0VjA0MDhsNmF3d0dTYTB4QmpTdFpMMl9YSmFBNlJwb0tIUFR1cGQtNnBTSzRINU9xSVphLVBVUHRnLVlsTnFFdWZoN0swRk5EV3hLOVc3QXdF?oc=5",
-      "date": "2025-12-22",
-      "publication": "Bloomberg.com"
-    },
-    {
       "headline": "NYC congestion pricing results one year later: Has the toll been a success?",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzRCMFBtb1FlQm1NYVRPdXhUX0tkTUJDOTg0TFYzazVzTlNHRGVNU1JhLXE0cV9aTXZXb3N3OU9QVDZvZmcwRnc2Z2lsby1uMHlZcXRhVFhTaVZaRGNNZV9SWERELUhCQ180UnU4VUdhdUMyZEZjeVVKcEh4aHRGWVROYmotY09iaUh4QkxycVk2R0NNOExxeWp0V0FQQdIBowFBVV95cUxPaXpEQmIxVXFjeDlad2pzOWxVV0NlV0gyZll4VDRLM2Fwd0hjZmhFWGFVbmxxaEZVWkhycXozWENEMXFiX1VYYWNIdkxCMDgtSW5yTGZ2V3FSR1Q3OWRvS2I0djBSTVB5bTVVU28wWEltLXE2UWw5ZkRqSUhuZ3RkTHNBVm1ReVl4OU90ODZwQkRLSGllSDlnNFR4SzNOSnZLZHZn?oc=5",
       "date": "2026-01-05",
       "publication": "ABC7 New York"
+    },
+    {
+      "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q1OUs4Z0dLMWJJaDF1YlMtc1A5WTRpMFlDcXVuT0RhYlR2dTNwN0ctUGhyTGNIbk1UTnVkLWd0bWNCZ1dQd0paWDZITURkRW9QRXBlaGtwaDVPQXU0VjA0MDhsNmF3d0dTYTB4QmpTdFpMMl9YSmFBNlJwb0tIUFR1cGQtNnBTSzRINU9xSVphLVBVUHRnLVlsTnFFdWZoN0swRk5EV3hLOVc3QXdF?oc=5",
+      "date": "2025-12-22",
+      "publication": "Bloomberg"
     },
     {
       "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
@@ -279,22 +279,22 @@
       "publication": "Futurism"
     },
     {
-      "headline": "Congestion Pricing, One Year In: A Qualified Success",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnJwOVYxekkybGtWMjZKbGlCeThGa25DRFFYV203dkI5RlZTaDlaZm1FNGJOV2hKWXgwNU1uSnJyUjY5MXlUdkdHaURRQ2Y4b0l4RTUxWER1UXZTRnZ2ZlcwVk1QcHZQMW9hTHdiVnVxd3ZQNmE5NHFKUXE5YzQwNWpnZmRNQQ?oc=5",
-      "date": "2026-01-02",
-      "publication": "Vital City"
-    },
-    {
       "headline": "impacts after six months of New York City cordon pricing",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrSjI2Tzdoa3F3cF9tdllhT01oekdXYmZUYTBDVHlyOWNIOEJiOGcxeHhzR2RaUzA0U1llbVhTOVVrTU1jQ2JEMGhncW5Sb0RNSkVNRXJhYlRfbXcwcWlV?oc=5",
       "date": "2025-12-08",
       "publication": "Nature"
     },
     {
-      "headline": "After a year, data shows con­gestion pricing a success, busi­nesses say mixed results",
+      "headline": "Data shows congestion pricing a success after a year",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjVUeGdQZUY3S1QtcTN0eHlmSDVlM3RRZTFSSHVoWWU4dnB0dXd0V1N6Q2RScmFLN24wLUtFeVY2bVZ0Yko3T0xCTU55MEpadnZ4RzhrVnNHYkROeEdneUduMHJjQnoxSUo5a0NuMHkzUzNXaXR3Y01uRDJUbXJJLUNJZi1ib0x1dkZYTmt2al9acEloLS1oalM3aVB3MXg0ckhabTdGSkVILTBFZS1DQ3l1dFZQTHc?oc=5",
       "date": "2025-12-30",
       "publication": "Spectrum News NY1"
+    },
+    {
+      "headline": "Congestion pricing: NYC subways saw millions more riders during Manhattan toll program’s first year, transit group finds",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeEN5ckdKZjZIWU05X05wRGJxLXJVYWdVRl9pZ1hQa21veEYxY1dZWUtSRU1ia0trZ05WNXgzZTlxVzlEcFhsZ2FreTRXZTRrS0FUS2c4R050S3BqQWJJTEVxaU1tWWRSYWhHOHRDQVBOUEhiWll0RnFzV1g4VlZBWmx5a0ZqUkMwR09ITjNBdw?oc=5",
+      "date": "2026-03-18",
+      "publication": "amNewYork"
     },
     {
       "headline": "One Year later, NYC congestion pricing Is delivering measurable results",
@@ -303,10 +303,10 @@
       "publication": "Logistics Management"
     },
     {
-      "headline": "Congestion Pricing: Hochul celebrates Manhattan toll program’s ‘extraordinary’ results on its one-year anniversary",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU1V0OXJEYjR3RVQ3aTBkWDlSMmVoOUFUbTRfci1JRjAyRWhNZjBRYkY1VDM4d2g4UzE3QjR3WUxZNlZ3V2hwbmo5Z2NSUkFrOWRPd0RQMEZ0cnZmcDNmNzQ2X0FNWUdETDNza0NBV2NCcVhpczRQUEZ0NkpxdFdxNw?oc=5",
-      "date": "2026-01-05",
-      "publication": "amNewYork"
+      "headline": "NYC congestion pricing cuts air pollution by 22% in six months",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXRxenJyOGhJdmF3U1VfeTRUS05tQUdWNzVUdzhKXzdDSVk5VUVYZExXYU5vVmo2ZV9iMGlkRFFIaEp0WFBNaEZPekJ5QVR1dGJaWVhSNjBKbmM5NDFYaU5CYUc0S0p3bzRKZ1FEbTVrdlpESVNmZy1Qanh5Wll6cmQ5bDI5NlVJdUl6MkZiMUE1c0ZSTXBRT1ZwQVlFdlM3SWpvZ3lqejhQa3d1M0FZOWF3?oc=5",
+      "date": "2025-12-09",
+      "publication": "AirQualityNews"
     },
     {
       "headline": "NYC congestion zone air pollution measure fell 22% in 6 months",
@@ -315,10 +315,10 @@
       "publication": "Smart Cities Dive"
     },
     {
-      "headline": "NYC congestion pricing cuts air pollution by 22% in six months",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXRxenJyOGhJdmF3U1VfeTRUS05tQUdWNzVUdzhKXzdDSVk5VUVYZExXYU5vVmo2ZV9iMGlkRFFIaEp0WFBNaEZPekJ5QVR1dGJaWVhSNjBKbmM5NDFYaU5CYUc0S0p3bzRKZ1FEbTVrdlpESVNmZy1Qanh5Wll6cmQ5bDI5NlVJdUl6MkZiMUE1c0ZSTXBRT1ZwQVlFdlM3SWpvZ3lqejhQa3d1M0FZOWF3?oc=5",
-      "date": "2025-12-09",
-      "publication": "AirQualityNews"
+      "headline": "Wowza — NYC Congestion Pricing Cut Pollution 22% In Just 6 Months!",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa0FoS1gyakgyN2JHYk5FMGpIeWt6VjdSRHFxWlN4R2R5ZXN4QVpMRHp5WlNWblpEZkhWWm9tamNseklKN1o5SlZZQ25QaDgzZlpLYjFkYzIweHRyeUNRZDRlUlY4SllYZWt2Z1cwWjA5ZFVQbkNIX3BiakgyZ21SeUJTY3VSZ2IzR01OZ3NzUHQ1QWg5T0FWQ29MVjExY3U4MnfSAaoBQVVfeXFMTUlUS3ExUXRwc1U2bU80QzQ4MmZDRldIMmRBMjRkeDA5N0RILW5CSzdvWU1aNXZfSWRYNFVDZ25FWjRVQlNxSGk1LTNfVjNhR0lFaFdKT0k1dzZHRnFsdi1oaHdqN1dNQnp2bHM4Mjg5ZDdSWnlESkthNlBRTnh0Q3cxb25vSmc0UDU3Z0h3MGdZSUk2enljSW9nVW9aTnRkR3pIbnlmX09NZmc?oc=5",
+      "date": "2025-12-31",
+      "publication": "CleanTechnica"
     }
   ],
   "revenueAllocation": null
