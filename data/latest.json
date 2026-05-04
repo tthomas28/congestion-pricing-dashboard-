@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-04-27T17:56:50.363Z",
+  "updatedAt": "2026-05-04T19:07:11.220Z",
   "traffic": {
     "updatedAt": "2026-03",
-    "reductionPct": 5.5,
+    "reductionPct": 3.5,
     "reductionNote": "2026-03 vs 2025-03 (year-over-year)",
     "estimatedTotalAvoided": 32558000,
     "byMonth": [
@@ -60,11 +60,11 @@
       },
       {
         "month": "2026-02",
-        "count": 12071383
+        "count": 12072253
       },
       {
         "month": "2026-03",
-        "count": 14437042
+        "count": 14747238
       }
     ]
   },
@@ -285,16 +285,16 @@
       "publication": "amNewYork"
     },
     {
-      "headline": "Data shows congestion pricing a success after a year",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjVUeGdQZUY3S1QtcTN0eHlmSDVlM3RRZTFSSHVoWWU4dnB0dXd0V1N6Q2RScmFLN24wLUtFeVY2bVZ0Yko3T0xCTU55MEpadnZ4RzhrVnNHYkROeEdneUduMHJjQnoxSUo5a0NuMHkzUzNXaXR3Y01uRDJUbXJJLUNJZi1ib0x1dkZYTmt2al9acEloLS1oalM3aVB3MXg0ckhabTdGSkVILTBFZS1DQ3l1dFZQTHc?oc=5",
-      "date": "2025-12-30",
-      "publication": "Spectrum News NY1"
-    },
-    {
       "headline": "impacts after six months of New York City cordon pricing",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrSjI2Tzdoa3F3cF9tdllhT01oekdXYmZUYTBDVHlyOWNIOEJiOGcxeHhzR2RaUzA0U1llbVhTOVVrTU1jQ2JEMGhncW5Sb0RNSkVNRXJhYlRfbXcwcWlV?oc=5",
       "date": "2025-12-08",
       "publication": "Nature"
+    },
+    {
+      "headline": "Data shows congestion pricing a success after a year",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjVUeGdQZUY3S1QtcTN0eHlmSDVlM3RRZTFSSHVoWWU4dnB0dXd0V1N6Q2RScmFLN24wLUtFeVY2bVZ0Yko3T0xCTU55MEpadnZ4RzhrVnNHYkROeEdneUduMHJjQnoxSUo5a0NuMHkzUzNXaXR3Y01uRDJUbXJJLUNJZi1ib0x1dkZYTmt2al9acEloLS1oalM3aVB3MXg0ckhabTdGSkVILTBFZS1DQ3l1dFZQTHc?oc=5",
+      "date": "2025-12-30",
+      "publication": "Spectrum News NY1"
     },
     {
       "headline": "One Year later, NYC congestion pricing Is delivering measurable results",
@@ -303,16 +303,16 @@
       "publication": "Logistics Management"
     },
     {
-      "headline": "NYC congestion pricing cuts air pollution by 22% in six months",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXRxenJyOGhJdmF3U1VfeTRUS05tQUdWNzVUdzhKXzdDSVk5VUVYZExXYU5vVmo2ZV9iMGlkRFFIaEp0WFBNaEZPekJ5QVR1dGJaWVhSNjBKbmM5NDFYaU5CYUc0S0p3bzRKZ1FEbTVrdlpESVNmZy1Qanh5Wll6cmQ5bDI5NlVJdUl6MkZiMUE1c0ZSTXBRT1ZwQVlFdlM3SWpvZ3lqejhQa3d1M0FZOWF3?oc=5",
-      "date": "2025-12-09",
-      "publication": "AirQualityNews"
-    },
-    {
       "headline": "NYC congestion zone air pollution measure fell 22% in 6 months",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQajR0ZzQtdG9ycTRXSFpON095YzJLRVJkREZ3bE0tcXBxYW0wYzVwR1o4cnVRN1FWTVpobkhWRzZsMUtMczMzYWhFTTlzX2VaOFpTbW9fZHNKaWl5TUtBdFlmUWpvWF9FY3Z2cnc2cHJfazVTX0xaVjJXVFUzS1hnMDNvVGFJcHMtSVRKZ0o1ZTNpY29vZDg3T3JwSkdBRGJ0MW5XTmVHNA?oc=5",
       "date": "2025-12-17",
       "publication": "Smart Cities Dive"
+    },
+    {
+      "headline": "NYC congestion pricing cuts air pollution by 22% in six months",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXRxenJyOGhJdmF3U1VfeTRUS05tQUdWNzVUdzhKXzdDSVk5VUVYZExXYU5vVmo2ZV9iMGlkRFFIaEp0WFBNaEZPekJ5QVR1dGJaWVhSNjBKbmM5NDFYaU5CYUc0S0p3bzRKZ1FEbTVrdlpESVNmZy1Qanh5Wll6cmQ5bDI5NlVJdUl6MkZiMUE1c0ZSTXBRT1ZwQVlFdlM3SWpvZ3lqejhQa3d1M0FZOWF3?oc=5",
+      "date": "2025-12-09",
+      "publication": "AirQualityNews"
     },
     {
       "headline": "Not Even Trump Can Stop NYC's Congestion Pricing, Judge Rules",
