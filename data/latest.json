@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-01T19:22:19.148Z",
+  "updatedAt": "2026-06-08T17:25:47.085Z",
   "traffic": {
-    "updatedAt": "2026-03",
-    "reductionPct": 3.5,
-    "reductionNote": "2026-03 vs 2025-03 (year-over-year)",
-    "estimatedTotalAvoided": 32558000,
+    "updatedAt": "2026-04",
+    "reductionPct": 2.3,
+    "reductionNote": "2026-04 vs 2025-04 (year-over-year)",
+    "estimatedTotalAvoided": 34748000,
     "byMonth": [
       {
         "month": "2025-01",
@@ -64,7 +64,11 @@
       },
       {
         "month": "2026-03",
-        "count": 14747238
+        "count": 14743839
+      },
+      {
+        "month": "2026-04",
+        "count": 14703185
       }
     ]
   },
@@ -267,12 +271,6 @@
       "publication": "ABC7 New York"
     },
     {
-      "headline": "27 Million Fewer Car Trips: Life After a Year of Congestion Pricing",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa2lhVE13b0psdV9qbmczYW54WDJVdzV0WTBXMjh6a1pMM0VVUGxKa1hDUzNoUm10SW8tX2tLYmZUdHQwc2E5VlFUWk5zSWIzelNEa0E5el83a2lJdUlPNTUyTXlfWjBDbWdrdTB0em5jZVdQNm1qMjk5OWZYR0hXMkZyYkNGTnhSYXVIX083NA?oc=5",
-      "date": "2026-01-05",
-      "publication": "The New York Times"
-    },
-    {
       "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q1OUs4Z0dLMWJJaDF1YlMtc1A5WTRpMFlDcXVuT0RhYlR2dTNwN0ctUGhyTGNIbk1UTnVkLWd0bWNCZ1dQd0paWDZITURkRW9QRXBlaGtwaDVPQXU0VjA0MDhsNmF3d0dTYTB4QmpTdFpMMl9YSmFBNlJwb0tIUFR1cGQtNnBTSzRINU9xSVphLVBVUHRnLVlsTnFFdWZoN0swRk5EV3hLOVc3QXdF?oc=5",
       "date": "2025-12-22",
@@ -291,10 +289,10 @@
       "publication": "Futurism"
     },
     {
-      "headline": "Congestion pricing: NYC subways saw millions more riders during Manhattan toll program’s first year, transit group finds",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeEN5ckdKZjZIWU05X05wRGJxLXJVYWdVRl9pZ1hQa21veEYxY1dZWUtSRU1ia0trZ05WNXgzZTlxVzlEcFhsZ2FreTRXZTRrS0FUS2c4R050S3BqQWJJTEVxaU1tWWRSYWhHOHRDQVBOUEhiWll0RnFzV1g4VlZBWmx5a0ZqUkMwR09ITjNBdw?oc=5",
-      "date": "2026-03-18",
-      "publication": "amNewYork"
+      "headline": "New York congestion pricing at 6 months: the results",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1NWTHQzSTZmTzBxMGlrcTBDVVo1OWtHT3VCMWNuWDE0Q21hWV81Z0tGdFRRZEhWWmx2NzRYUXNjWXJBdXhWQkR4a0U5OGRUQUpSWldFU2VaSUxGekZTQ1RxZlFMN3FMWEpmMUlVbjJkRmpZM1lqN09nbGJzeUNWSUxQVmdPYTlveTNNaWlsOUY1dw?oc=5",
+      "date": "2025-07-07",
+      "publication": "Smart Cities Dive"
     },
     {
       "headline": "After a year, data shows con­gestion pricing a success, busi­nesses say mixed results",
@@ -303,22 +301,28 @@
       "publication": "Spectrum News NY1"
     },
     {
-      "headline": "The Effects Of Congestion Pricing — Pollution Reduction And So Much More",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGltd1owLTlwV2lSYkQ3dGQ1UTZfNWJyOVZDYWdPdnQ4RFc4alhsdkQzWW5ucWx2ZFhJYXZFcUVSeEJ0NVFkcnFmS000Ylg2RjNJbTNUai1aaWMyYXF6aUh3RHNQWDl1ejdkdEZoUXhDMUdKWHptVDh1SXdPVWNVWWRyRTB3UmhROWplMkJTQWczZ21mVVlNUW5SV1Y3Nld6UDFYNUlWQ0xrZThJ0gG0AUFVX3lxTE5pWVk2ZG1WU0JJYUZZYXY5TG14THo1R2Jod09Da3k3ZlU5S2MxQlA5YzNLcG1RaDk3TlRJMmFaTnNWQ2ltcWdrWVVpRXRHZElUODFqQ1Aza3lTTVZDVHA5V0xRUG5YTlZIbTItUjhidTk2czN4S2ROWUFtUzBHNlJ5X1JvVC1wT2FRR242UUpBZW5nbDJReWFrM21yLVl3aTdROFpGQ3VPbXZucUJYMXBURE1fTg?oc=5",
-      "date": "2026-03-16",
-      "publication": "CleanTechnica"
-    },
-    {
       "headline": "impacts after six months of New York City cordon pricing",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrSjI2Tzdoa3F3cF9tdllhT01oekdXYmZUYTBDVHlyOWNIOEJiOGcxeHhzR2RaUzA0U1llbVhTOVVrTU1jQ2JEMGhncW5Sb0RNSkVNRXJhYlRfbXcwcWlV?oc=5",
       "date": "2025-12-08",
       "publication": "Nature"
     },
     {
-      "headline": "Not Even Trump Can Stop NYC's Congestion Pricing, Judge Rules",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTmU0ZHdkOERFdmI0VUI2Qk9KaldFS2FHemlISno4ZWtnV1pvTnQtVWdkNlZLMV9rR0xnREowbEQ1bE5SQWNGZzFVQzhsMGhVN2g5OWpDZGllMDROZXQzZjA3X09OdElsNGtxSGRhb2pJRkRYUWI0SElxQmRMWUdtOGNOVmlBbVVuSXB3UDAzbw?oc=5",
-      "date": "2026-03-04",
-      "publication": "Jalopnik"
+      "headline": "Congestion pricing: NYC subways saw millions more riders during Manhattan toll program’s first year, transit group finds",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeEN5ckdKZjZIWU05X05wRGJxLXJVYWdVRl9pZ1hQa21veEYxY1dZWUtSRU1ia0trZ05WNXgzZTlxVzlEcFhsZ2FreTRXZTRrS0FUS2c4R050S3BqQWJJTEVxaU1tWWRSYWhHOHRDQVBOUEhiWll0RnFzV1g4VlZBWmx5a0ZqUkMwR09ITjNBdw?oc=5",
+      "date": "2026-03-18",
+      "publication": "amNewYork"
+    },
+    {
+      "headline": "The Effects Of Congestion Pricing — Pollution Reduction And So Much More",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGltd1owLTlwV2lSYkQ3dGQ1UTZfNWJyOVZDYWdPdnQ4RFc4alhsdkQzWW5ucWx2ZFhJYXZFcUVSeEJ0NVFkcnFmS000Ylg2RjNJbTNUai1aaWMyYXF6aUh3RHNQWDl1ejdkdEZoUXhDMUdKWHptVDh1SXdPVWNVWWRyRTB3UmhROWplMkJTQWczZ21mVVlNUW5SV1Y3Nld6UDFYNUlWQ0xrZThJ0gG0AUFVX3lxTE5pWVk2ZG1WU0JJYUZZYXY5TG14THo1R2Jod09Da3k3ZlU5S2MxQlA5YzNLcG1RaDk3TlRJMmFaTnNWQ2ltcWdrWVVpRXRHZElUODFqQ1Aza3lTTVZDVHA5V0xRUG5YTlZIbTItUjhidTk2czN4S2ROWUFtUzBHNlJ5X1JvVC1wT2FRR242UUpBZW5nbDJReWFrM21yLVl3aTdROFpGQ3VPbXZucUJYMXBURE1fTg?oc=5",
+      "date": "2026-03-16",
+      "publication": "CleanTechnica"
+    },
+    {
+      "headline": "One Year later, NYC congestion pricing Is delivering measurable results",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbEtvd2Z2S2hyclhjdlFzTURYc3JQMXYyb3QycmpTT2phZU9YZlNfYTN2VXRuMTFEeGtYTHg2R1hCTXR0VExta0JWSE42aUtaQllvOFc3RXNXU2xZUTJqd0doLXo2dlVET21pQXc4amZCY0ZYMGdmd3NzWm5CS1poQVoxTjlFdkptVXp4LVVBVkIxczZQaXdTaEZGVlBvTU9QNUxyRE53Y0RnazA5?oc=5",
+      "date": "2026-01-05",
+      "publication": "Logistics Management"
     }
   ],
   "revenueAllocation": null
