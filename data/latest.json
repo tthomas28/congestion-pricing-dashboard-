@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T16:38:35.302Z",
+  "updatedAt": "2026-07-20T15:55:09.592Z",
   "traffic": {
     "updatedAt": "2026-05",
     "reductionPct": 3.6,
@@ -284,16 +284,40 @@
   },
   "news": [
     {
-      "headline": "Globe/Suffolk Poll Confirms That Fewer Drivers Would Clog City's Roadways If Boston Had Congestion Pricing",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOLWNWYWVhcVFJZ1d2ak15SF95bVR3X19JenpwWEpGSE5LUGZxUlpoODVPY0hEeVRqZVVKTXRSVzMyNHBTTnFtTkJuUFpmbURUd0Yxc01PQXQwZE9QQ25maEJaeUJHU0Q3YkphTDNGVWszRGVlY25hcC0tcWE4YThkdnJ2LUVPTHRONEFKbDVpM1lCY1ZJQUZiZ2xuY2l2R2hTNGw2emxyRkstQ0w2YUhIQjlsNVdjYUxEUnJ3RjBlaHhXT1dVd05qeEJTU2NzaDk5Rkt2YXlhVVh5dld2Nmc?oc=5",
-      "date": "2026-06-17",
-      "publication": "Streetsblog Massachusetts"
+      "headline": "NYC congestion pricing results one year later: Has the toll been a success?",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzRCMFBtb1FlQm1NYVRPdXhUX0tkTUJDOTg0TFYzazVzTlNHRGVNU1JhLXE0cV9aTXZXb3N3OU9QVDZvZmcwRnc2Z2lsby1uMHlZcXRhVFhTaVZaRGNNZV9SWERELUhCQ180UnU4VUdhdUMyZEZjeVVKcEh4aHRGWVROYmotY09iaUh4QkxycVk2R0NNOExxeWp0V0FQQdIBowFBVV95cUxPaXpEQmIxVXFjeDlad2pzOWxVV0NlV0gyZll4VDRLM2Fwd0hjZmhFWGFVbmxxaEZVWkhycXozWENEMXFiX1VYYWNIdkxCMDgtSW5yTGZ2V3FSR1Q3OWRvS2I0djBSTVB5bTVVU28wWEltLXE2UWw5ZkRqSUhuZ3RkTHNBVm1ReVl4OU90ODZwQkRLSGllSDlnNFR4SzNOSnZLZHZn?oc=5",
+      "date": "2026-01-05",
+      "publication": "ABC7 New York"
+    },
+    {
+      "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q1OUs4Z0dLMWJJaDF1YlMtc1A5WTRpMFlDcXVuT0RhYlR2dTNwN0ctUGhyTGNIbk1UTnVkLWd0bWNCZ1dQd0paWDZITURkRW9QRXBlaGtwaDVPQXU0VjA0MDhsNmF3d0dTYTB4QmpTdFpMMl9YSmFBNlJwb0tIUFR1cGQtNnBTSzRINU9xSVphLVBVUHRnLVlsTnFFdWZoN0swRk5EV3hLOVc3QXdF?oc=5",
+      "date": "2025-12-22",
+      "publication": "Bloomberg.com"
+    },
+    {
+      "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsQ2lfemJoejU1OGhFTjNIaXNqOVVBSUh1NkNqTGtiYVFtM185azlRbjBvWmtJbEJKZF9ndTNMZXEzRkhIQnRTaFJxakZDaHJJdzU3aVBWVXhsWkl2el8yRlpTRC1vY2g5QWxINEVEM2dHcGNS?oc=5",
+      "date": "2026-01-05",
+      "publication": "Futurism"
     },
     {
       "headline": "Congestion relief zone results after year one suggest notable road safety benefits",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVlV4VTlpbXd2a0ZoTWdGM01RbHZLcG82WklVbDRKRWFmOHZCbVlrMWJ0WHRLU2d6cjhkRWtxOWlWUkdTSzhLNVN0ZXJDLUNGTlBFRnItaEJwV1ZlWFplMnBlZXh1LUZrQXJaTE5mOEtLeWlYVnVoWF9HMmtsODdpV1J5NFVrUQ?oc=5",
       "date": "2026-06-08",
       "publication": "Medical Xpress"
+    },
+    {
+      "headline": "Data shows congestion pricing a success after a year",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjVUeGdQZUY3S1QtcTN0eHlmSDVlM3RRZTFSSHVoWWU4dnB0dXd0V1N6Q2RScmFLN24wLUtFeVY2bVZ0Yko3T0xCTU55MEpadnZ4RzhrVnNHYkROeEdneUduMHJjQnoxSUo5a0NuMHkzUzNXaXR3Y01uRDJUbXJJLUNJZi1ib0x1dkZYTmt2al9acEloLS1oalM3aVB3MXg0ckhabTdGSkVILTBFZS1DQ3l1dFZQTHc?oc=5",
+      "date": "2025-12-30",
+      "publication": "Spectrum News NY1"
+    },
+    {
+      "headline": "Globe/Suffolk Poll Confirms That Fewer Drivers Would Clog City's Roadways If Boston Had Congestion Pricing",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOLWNWYWVhcVFJZ1d2ak15SF95bVR3X19JenpwWEpGSE5LUGZxUlpoODVPY0hEeVRqZVVKTXRSVzMyNHBTTnFtTkJuUFpmbURUd0Yxc01PQXQwZE9QQ25maEJaeUJHU0Q3YkphTDNGVWszRGVlY25hcC0tcWE4YThkdnJ2LUVPTHRONEFKbDVpM1lCY1ZJQUZiZ2xuY2l2R2hTNGw2emxyRkstQ0w2YUhIQjlsNVdjYUxEUnJ3RjBlaHhXT1dVd05qeEJTU2NzaDk5Rkt2YXlhVVh5dld2Nmc?oc=5",
+      "date": "2026-06-17",
+      "publication": "Streetsblog Massachusetts"
     },
     {
       "headline": "The Effects Of Congestion Pricing — Pollution Reduction And So Much More",
@@ -308,40 +332,16 @@
       "publication": "amNewYork"
     },
     {
-      "headline": "Not Even Trump Can Stop NYC's Congestion Pricing, Judge Rules",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTmU0ZHdkOERFdmI0VUI2Qk9KaldFS2FHemlISno4ZWtnV1pvTnQtVWdkNlZLMV9rR0xnREowbEQ1bE5SQWNGZzFVQzhsMGhVN2g5OWpDZGllMDROZXQzZjA3X09OdElsNGtxSGRhb2pJRkRYUWI0SElxQmRMWUdtOGNOVmlBbVVuSXB3UDAzbw?oc=5",
-      "date": "2026-03-04",
-      "publication": "Jalopnik"
+      "headline": "NYC congestion pricing’s winners and losers",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdVFCNDJLVEVBdnRfWVh5VzFlR1VRa3ZZTFZob1JZbmZxVERNMmJQS2ZPR3dhcTVPMjU3TmxhM19KY2NhMlFPanFnM3F0Qmt2TnR4WWx6aW90RDhfWnNIOHZNWDhsWDFUWTdMRjZRZ29qZnM3R1BWaU0zNWRtUm8xeXJwQjl2eG5vUUVvQmhiWlbSAZYBQVVfeXFMTW15Q2cyUVltTTZiYVE1LXBnS3ZfWnFZT0ZYcmlSd1cyZE5TZlNXOHFoMnJPcFM4dWs0Uy1yRW9Ed1M0RUdocWFtTVI2ZE5tN0lZTmZSVXdvVGlPXzc0ZE41MHFnSU9jNHpKUk1aSlRScGNBRVNmcVdBdnhIdllFenhZYWcyN1NTVmF3ZHotZG4wOEdNNzVn?oc=5",
+      "date": "2025-08-29",
+      "publication": "The Hill"
     },
     {
-      "headline": "NYC congestion pricing results one year later: Has the toll been a success?",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzRCMFBtb1FlQm1NYVRPdXhUX0tkTUJDOTg0TFYzazVzTlNHRGVNU1JhLXE0cV9aTXZXb3N3OU9QVDZvZmcwRnc2Z2lsby1uMHlZcXRhVFhTaVZaRGNNZV9SWERELUhCQ180UnU4VUdhdUMyZEZjeVVKcEh4aHRGWVROYmotY09iaUh4QkxycVk2R0NNOExxeWp0V0FQQdIBowFBVV95cUxPaXpEQmIxVXFjeDlad2pzOWxVV0NlV0gyZll4VDRLM2Fwd0hjZmhFWGFVbmxxaEZVWkhycXozWENEMXFiX1VYYWNIdkxCMDgtSW5yTGZ2V3FSR1Q3OWRvS2I0djBSTVB5bTVVU28wWEltLXE2UWw5ZkRqSUhuZ3RkTHNBVm1ReVl4OU90ODZwQkRLSGllSDlnNFR4SzNOSnZLZHZn?oc=5",
-      "date": "2026-01-05",
-      "publication": "ABC7 New York"
-    },
-    {
-      "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q1OUs4Z0dLMWJJaDF1YlMtc1A5WTRpMFlDcXVuT0RhYlR2dTNwN0ctUGhyTGNIbk1UTnVkLWd0bWNCZ1dQd0paWDZITURkRW9QRXBlaGtwaDVPQXU0VjA0MDhsNmF3d0dTYTB4QmpTdFpMMl9YSmFBNlJwb0tIUFR1cGQtNnBTSzRINU9xSVphLVBVUHRnLVlsTnFFdWZoN0swRk5EV3hLOVc3QXdF?oc=5",
-      "date": "2025-12-22",
-      "publication": "Bloomberg.com"
-    },
-    {
-      "headline": "Data shows congestion pricing a success after a year",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjVUeGdQZUY3S1QtcTN0eHlmSDVlM3RRZTFSSHVoWWU4dnB0dXd0V1N6Q2RScmFLN24wLUtFeVY2bVZ0Yko3T0xCTU55MEpadnZ4RzhrVnNHYkROeEdneUduMHJjQnoxSUo5a0NuMHkzUzNXaXR3Y01uRDJUbXJJLUNJZi1ib0x1dkZYTmt2al9acEloLS1oalM3aVB3MXg0ckhabTdGSkVILTBFZS1DQ3l1dFZQTHc?oc=5",
-      "date": "2025-12-30",
-      "publication": "Spectrum News NY1"
-    },
-    {
-      "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsQ2lfemJoejU1OGhFTjNIaXNqOVVBSUh1NkNqTGtiYVFtM185azlRbjBvWmtJbEJKZF9ndTNMZXEzRkhIQnRTaFJxakZDaHJJdzU3aVBWVXhsWkl2el8yRlpTRC1vY2g5QWxINEVEM2dHcGNS?oc=5",
-      "date": "2026-01-05",
-      "publication": "Futurism"
-    },
-    {
-      "headline": "New York congestion pricing at 6 months: the results",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa1NWTHQzSTZmTzBxMGlrcTBDVVo1OWtHT3VCMWNuWDE0Q21hWV81Z0tGdFRRZEhWWmx2NzRYUXNjWXJBdXhWQkR4a0U5OGRUQUpSWldFU2VaSUxGekZTQ1RxZlFMN3FMWEpmMUlVbjJkRmpZM1lqN09nbGJzeUNWSUxQVmdPYTlveTNNaWlsOUY1dw?oc=5",
-      "date": "2025-07-07",
-      "publication": "Smart Cities Dive"
+      "headline": "NYC’s Congestion Pricing Program Exceeds Expectations, Shows Early Success",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QdGhBMTRFbmdDMmZRbG10Y2stSzE0MzNhVDl1NUlaMzdHZmszYUJ5ZXNCekJPeEFqdlNmSjZQU2tQX24zdWh5OWxybVM1UGFaZmVvVEFXNVNva3M1b2hiWTRBWEctQS1sUWk0NnNnRGtzZWc?oc=5",
+      "date": "2025-12-27",
+      "publication": "Davis Vanguard"
     }
   ],
   "revenueAllocation": null
