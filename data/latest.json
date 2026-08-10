@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-03T16:30:23.043Z",
+  "updatedAt": "2026-08-10T15:04:21.533Z",
   "traffic": {
-    "updatedAt": "2026-05",
-    "reductionPct": 3.6,
-    "reductionNote": "2026-05 vs 2025-05 (year-over-year)",
-    "estimatedTotalAvoided": 37011000,
+    "updatedAt": "2026-07",
+    "reductionPct": 2.6,
+    "reductionNote": "2026-07 vs 2025-07 (year-over-year)",
+    "estimatedTotalAvoided": 41464000,
     "byMonth": [
       {
         "month": "2025-01",
@@ -72,7 +72,15 @@
       },
       {
         "month": "2026-05",
-        "count": 15329276
+        "count": 15324340
+      },
+      {
+        "month": "2026-06",
+        "count": 14789341
+      },
+      {
+        "month": "2026-07",
+        "count": 14770889
       }
     ]
   },
@@ -295,10 +303,22 @@
       "publication": "ABC7 New York"
     },
     {
+      "headline": "27 Million Fewer Car Trips: Life After a Year of Congestion Pricing",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa2lhVE13b0psdV9qbmczYW54WDJVdzV0WTBXMjh6a1pMM0VVUGxKa1hDUzNoUm10SW8tX2tLYmZUdHQwc2E5VlFUWk5zSWIzelNEa0E5el83a2lJdUlPNTUyTXlfWjBDbWdrdTB0em5jZVdQNm1qMjk5OWZYR0hXMkZyYkNGTnhSYXVIX083NA?oc=5",
+      "date": "2026-01-05",
+      "publication": "The New York Times"
+    },
+    {
       "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q1OUs4Z0dLMWJJaDF1YlMtc1A5WTRpMFlDcXVuT0RhYlR2dTNwN0ctUGhyTGNIbk1UTnVkLWd0bWNCZ1dQd0paWDZITURkRW9QRXBlaGtwaDVPQXU0VjA0MDhsNmF3d0dTYTB4QmpTdFpMMl9YSmFBNlJwb0tIUFR1cGQtNnBTSzRINU9xSVphLVBVUHRnLVlsTnFFdWZoN0swRk5EV3hLOVc3QXdF?oc=5",
       "date": "2025-12-22",
       "publication": "Bloomberg.com"
+    },
+    {
+      "headline": "Climate School Experts on Congestion Pricing’s First Year",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMm1MamFPdmVJYlRmbXRYdEJ1R1hPbVZ3VzNHZzR4TGJyZFVzTklmY3hoNVp5WmhHeU5JOEhkX1V5SWJfd1V2SnVpRS1iTVpkazlNa2hTQ3lBSEFQb194ajBhS0NYb3RjUUpTZ09KVkVwbm1Remxfa0xRU0FmWUlwYjAzdWJHajlIdXYtYzZLU3BnenNyVEpQRU01UDFjclI2aU5MQw?oc=5",
+      "date": "2026-04-21",
+      "publication": "Columbia University"
     },
     {
       "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
@@ -316,7 +336,7 @@
       "headline": "Congestion relief zone results after year one suggest notable road safety benefits",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVlV4VTlpbXd2a0ZoTWdGM01RbHZLcG82WklVbDRKRWFmOHZCbVlrMWJ0WHRLU2d6cjhkRWtxOWlWUkdTSzhLNVN0ZXJDLUNGTlBFRnItaEJwV1ZlWFplMnBlZXh1LUZrQXJaTE5mOEtLeWlYVnVoWF9HMmtsODdpV1J5NFVrUQ?oc=5",
       "date": "2026-06-08",
-      "publication": "Medical Xpress"
+      "publication": "medicalxpress.com"
     },
     {
       "headline": "Globe/Suffolk Poll Confirms That Fewer Drivers Would Clog City's Roadways If Boston Had Congestion Pricing",
@@ -335,18 +355,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeEN5ckdKZjZIWU05X05wRGJxLXJVYWdVRl9pZ1hQa21veEYxY1dZWUtSRU1ia0trZ05WNXgzZTlxVzlEcFhsZ2FreTRXZTRrS0FUS2c4R050S3BqQWJJTEVxaU1tWWRSYWhHOHRDQVBOUEhiWll0RnFzV1g4VlZBWmx5a0ZqUkMwR09ITjNBdw?oc=5",
       "date": "2026-03-18",
       "publication": "amNewYork"
-    },
-    {
-      "headline": "NYC’s Congestion Pricing Program Exceeds Expectations, Shows Early Success",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QdGhBMTRFbmdDMmZRbG10Y2stSzE0MzNhVDl1NUlaMzdHZmszYUJ5ZXNCekJPeEFqdlNmSjZQU2tQX24zdWh5OWxybVM1UGFaZmVvVEFXNVNva3M1b2hiWTRBWEctQS1sUWk0NnNnRGtzZWc?oc=5",
-      "date": "2025-12-27",
-      "publication": "davisvanguard.org"
-    },
-    {
-      "headline": "NYC congestion pricing’s winners and losers",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdVFCNDJLVEVBdnRfWVh5VzFlR1VRa3ZZTFZob1JZbmZxVERNMmJQS2ZPR3dhcTVPMjU3TmxhM19KY2NhMlFPanFnM3F0Qmt2TnR4WWx6aW90RDhfWnNIOHZNWDhsWDFUWTdMRjZRZ29qZnM3R1BWaU0zNWRtUm8xeXJwQjl2eG5vUUVvQmhiWlbSAZYBQVVfeXFMTW15Q2cyUVltTTZiYVE1LXBnS3ZfWnFZT0ZYcmlSd1cyZE5TZlNXOHFoMnJPcFM4dWs0Uy1yRW9Ed1M0RUdocWFtTVI2ZE5tN0lZTmZSVXdvVGlPXzc0ZE41MHFnSU9jNHpKUk1aSlRScGNBRVNmcVdBdnhIdllFenhZYWcyN1NTVmF3ZHotZG4wOEdNNzVn?oc=5",
-      "date": "2025-08-29",
-      "publication": "The Hill"
     }
   ],
   "revenueAllocation": null
