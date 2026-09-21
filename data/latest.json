@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-14T19:09:45.465Z",
+  "updatedAt": "2026-09-21T19:11:57.236Z",
   "traffic": {
-    "updatedAt": "2026-07",
-    "reductionPct": 2.7,
-    "reductionNote": "2026-07 vs 2025-07 (year-over-year)",
-    "estimatedTotalAvoided": 41464000,
+    "updatedAt": "2026-08",
+    "reductionPct": 3.3,
+    "reductionNote": "2026-08 vs 2025-08 (year-over-year)",
+    "estimatedTotalAvoided": 43727000,
     "byMonth": [
       {
         "month": "2025-01",
@@ -80,7 +80,11 @@
       },
       {
         "month": "2026-07",
-        "count": 14741555
+        "count": 14739298
+      },
+      {
+        "month": "2026-08",
+        "count": 14515845
       }
     ]
   },
@@ -283,21 +287,21 @@
     ]
   },
   "safety": {
-    "updatedAt": "2026-09-14",
+    "updatedAt": "2026-09-21",
     "accidents": {
       "currentYearCount": 121970,
-      "priorYearCount": 150789,
-      "reductionPct": 19.11
+      "priorYearCount": 152609,
+      "reductionPct": 20.08
     },
     "pedestrianFatalities": {
       "currentYearCount": 297,
-      "priorYearCount": 435,
-      "reductionPct": 31.72
+      "priorYearCount": 439,
+      "reductionPct": 32.35
     },
     "noiseComplaints": {
-      "currentCount": 9817,
-      "priorYearCount": 11935,
-      "reductionPct": 17.75
+      "currentCount": 9954,
+      "priorYearCount": 12110,
+      "reductionPct": 17.8
     }
   },
   "news": [
@@ -314,18 +318,6 @@
       "publication": "ABC7 New York"
     },
     {
-      "headline": "Congestion pricing has little to no effect on NYC parking: report",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa3U0TWxxOGhuVHVDVXlDUmh6SGFGajc4TF9RaVkzWXJaNHo4SlQ1OEdtNUl6QXNQMXNqbEFaUGdQYWQwLUFLaXFfcHkxZjhvb3oycWNHTEZpNlVhV0lwT3Bidmt6QlY5NC0zRDBrakZLZ3QxQTlBVFlHRkYtYjU5b1RRcF9FLWI0cUFBdmRB?oc=5",
-      "date": "2026-07-15",
-      "publication": "Smart Cities Dive"
-    },
-    {
-      "headline": "NYC Health Department releases Congestion Relief Zone air quality study results",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPbEdDdGZxZFRGRE8wRmxJRWxsWjJxZ0ZUSVhrLW52amtuRlNISVQ1S1hEdFhhNDNJVktlMXUwOHhsM29FSWRKaC1iWTJKYUFLbm5jNFQtcFI4RlBVT2lfUXBlSDhLZmU1aUJGRzZ0TXdvN1E1SFl3bGNUWmd3d3ZaNkhOaUZkZUlDVEZaclBobGY4b1QtRmlUWkQ4eHNCX3VuMXZDSW5neHNaMUktVTVjbHZrY0toWGtYMnV4aHdNWXVRZzdJU3Nudi0ySzBvV2VZMnIzME5VTGZiN0p4SUoxSzRkWHZvS1diWUpROGdkTVpOaVBJTFNkN2VSN3VMQWpQbUVDRXllUkZuNjdv?oc=5",
-      "date": "2026-08-19",
-      "publication": "Mass Transit"
-    },
-    {
       "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q1OUs4Z0dLMWJJaDF1YlMtc1A5WTRpMFlDcXVuT0RhYlR2dTNwN0ctUGhyTGNIbk1UTnVkLWd0bWNCZ1dQd0paWDZITURkRW9QRXBlaGtwaDVPQXU0VjA0MDhsNmF3d0dTYTB4QmpTdFpMMl9YSmFBNlJwb0tIUFR1cGQtNnBTSzRINU9xSVphLVBVUHRnLVlsTnFFdWZoN0swRk5EV3hLOVc3QXdF?oc=5",
       "date": "2025-12-22",
@@ -338,6 +330,24 @@
       "publication": "Vital City"
     },
     {
+      "headline": "Congestion Pricing Wins in Court After Lengthy Battle With Trump",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd1dxNlA2dkNmQUJPRlNrZGM1T0RibEYzRVR5eEVEdHpBQzB5VGVIQjlsMVJfSngzWGVZNGxlb05XSDVoNU5RN0ktMHBCWkQ3TjJiY2Z1cl9MbXVMbzdURC10dkNHNnVIb0dUNDdGYzJFLVpna19PWjl4WFhibVZmT1A2VmQ?oc=5",
+      "date": "2026-03-03",
+      "publication": "The New York Times"
+    },
+    {
+      "headline": "Congestion pricing has little to no effect on NYC parking: report",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa3U0TWxxOGhuVHVDVXlDUmh6SGFGajc4TF9RaVkzWXJaNHo4SlQ1OEdtNUl6QXNQMXNqbEFaUGdQYWQwLUFLaXFfcHkxZjhvb3oycWNHTEZpNlVhV0lwT3Bidmt6QlY5NC0zRDBrakZLZ3QxQTlBVFlHRkYtYjU5b1RRcF9FLWI0cUFBdmRB?oc=5",
+      "date": "2026-07-15",
+      "publication": "smartcitiesdive.com"
+    },
+    {
+      "headline": "NYC Health Department releases Congestion Relief Zone air quality study results",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPbEdDdGZxZFRGRE8wRmxJRWxsWjJxZ0ZUSVhrLW52amtuRlNISVQ1S1hEdFhhNDNJVktlMXUwOHhsM29FSWRKaC1iWTJKYUFLbm5jNFQtcFI4RlBVT2lfUXBlSDhLZmU1aUJGRzZ0TXdvN1E1SFl3bGNUWmd3d3ZaNkhOaUZkZUlDVEZaclBobGY4b1QtRmlUWkQ4eHNCX3VuMXZDSW5neHNaMUktVTVjbHZrY0toWGtYMnV4aHdNWXVRZzdJU3Nudi0ySzBvV2VZMnIzME5VTGZiN0p4SUoxSzRkWHZvS1diWUpROGdkTVpOaVBJTFNkN2VSN3VMQWpQbUVDRXllUkZuNjdv?oc=5",
+      "date": "2026-08-19",
+      "publication": "Mass Transit"
+    },
+    {
       "headline": "Congestion relief zone results after year one suggest notable road safety benefits",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVlV4VTlpbXd2a0ZoTWdGM01RbHZLcG82WklVbDRKRWFmOHZCbVlrMWJ0WHRLU2d6cjhkRWtxOWlWUkdTSzhLNVN0ZXJDLUNGTlBFRnItaEJwV1ZlWFplMnBlZXh1LUZrQXJaTE5mOEtLeWlYVnVoWF9HMmtsODdpV1J5NFVrUQ?oc=5",
       "date": "2026-06-08",
@@ -348,12 +358,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYjVUeGdQZUY3S1QtcTN0eHlmSDVlM3RRZTFSSHVoWWU4dnB0dXd0V1N6Q2RScmFLN24wLUtFeVY2bVZ0Yko3T0xCTU55MEpadnZ4RzhrVnNHYkROeEdneUduMHJjQnoxSUo5a0NuMHkzUzNXaXR3Y01uRDJUbXJJLUNJZi1ib0x1dkZYTmt2al9acEloLS1oalM3aVB3MXg0ckhabTdGSkVILTBFZS1DQ3l1dFZQTHc?oc=5",
       "date": "2025-12-30",
       "publication": "Spectrum News NY1"
-    },
-    {
-      "headline": "Globe/Suffolk Poll Confirms That Fewer Drivers Would Clog City's Roadways If Boston Had Congestion Pricing",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOLWNWYWVhcVFJZ1d2ak15SF95bVR3X19JenpwWEpGSE5LUGZxUlpoODVPY0hEeVRqZVVKTXRSVzMyNHBTTnFtTkJuUFpmbURUd0Yxc01PQXQwZE9QQ25maEJaeUJHU0Q3YkphTDNGVWszRGVlY25hcC0tcWE4YThkdnJ2LUVPTHRONEFKbDVpM1lCY1ZJQUZiZ2xuY2l2R2hTNGw2emxyRkstQ0w2YUhIQjlsNVdjYUxEUnJ3RjBlaHhXT1dVd05qeEJTU2NzaDk5Rkt2YXlhVVh5dld2Nmc?oc=5",
-      "date": "2026-06-17",
-      "publication": "Streetsblog Massachusetts"
     },
     {
       "headline": "The Hard Numbers Show That the NYC Congestion Pricing Has Been a Staggering Success",
