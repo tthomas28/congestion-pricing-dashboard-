@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-05T21:25:58.357Z",
+  "updatedAt": "2026-10-12T22:01:29.524Z",
   "traffic": {
-    "updatedAt": "2026-08",
-    "reductionPct": 3.3,
-    "reductionNote": "2026-08 vs 2025-08 (year-over-year)",
-    "estimatedTotalAvoided": 43727000,
+    "updatedAt": "2026-09",
+    "reductionPct": 4.6,
+    "reductionNote": "2026-09 vs 2025-09 (year-over-year)",
+    "estimatedTotalAvoided": 45917000,
     "byMonth": [
       {
         "month": "2025-01",
@@ -80,11 +80,15 @@
       },
       {
         "month": "2026-07",
-        "count": 14739298
+        "count": 14739312
       },
       {
         "month": "2026-08",
-        "count": 14515845
+        "count": 14510871
+      },
+      {
+        "month": "2026-09",
+        "count": 14421441
       }
     ]
   },
@@ -311,22 +315,28 @@
   },
   "news": [
     {
+      "headline": "NYC congestion pricing report – Environment &amp; Health Data Portal",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3FscmtDWDlKN3hsbWRLcXBBM1Q5c2ZpZUlOVDYyc3Z4MHI0UnZkaDdlRUZtemJoV3k2TFFSUHljQnVvNWVOUVNnb3p2UEtTUThHcTA2dUFYSklaZHdvaWphWUFnZ0RiSlFXWENMdWdUaGRkQlV5V0puNGxEVHlLaXB0WkI2Z2QyUndxQkNn?oc=5",
+      "date": "2026-08-14",
+      "publication": "NYC.gov"
+    },
+    {
       "headline": "Did NYC congestion pricing deliver? New report raises questions",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcWRqVUIxRHRUNXBhS2lpcEJDcmozYkxhNmd2M0QwMFFDY0tZamg1MWlReTRIQVE1NkdzNTVIZ3RNV2pyRktkTTBfMnlRU25OYjVZOVl1V3FCT1ExTmVmeDBseUpUMmY0aXVPd3B1V2pQelZJN0xmSHZUV3NQU2FZcF9uUFdrS0xtVWFyaUU4SQ?oc=5",
       "date": "2026-08-20",
       "publication": "Land Line Media"
     },
     {
-      "headline": "Climate School Experts on Congestion Pricing’s First Year",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMm1MamFPdmVJYlRmbXRYdEJ1R1hPbVZ3VzNHZzR4TGJyZFVzTklmY3hoNVp5WmhHeU5JOEhkX1V5SWJfd1V2SnVpRS1iTVpkazlNa2hTQ3lBSEFQb194ajBhS0NYb3RjUUpTZ09KVkVwbm1Remxfa0xRU0FmWUlwYjAzdWJHajlIdXYtYzZLU3BnenNyVEpQRU01UDFjclI2aU5MQw?oc=5",
-      "date": "2026-04-21",
-      "publication": "State of the Planet"
-    },
-    {
       "headline": "Congestion pricing has little to no effect on NYC parking: report",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa3U0TWxxOGhuVHVDVXlDUmh6SGFGajc4TF9RaVkzWXJaNHo4SlQ1OEdtNUl6QXNQMXNqbEFaUGdQYWQwLUFLaXFfcHkxZjhvb3oycWNHTEZpNlVhV0lwT3Bidmt6QlY5NC0zRDBrakZLZ3QxQTlBVFlHRkYtYjU5b1RRcF9FLWI0cUFBdmRB?oc=5",
       "date": "2026-07-15",
       "publication": "Smart Cities Dive"
+    },
+    {
+      "headline": "Congestion Relief Zone Results After Year One Suggest Notable Road Safety Benefits",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTGYzaVk5dFNlSWVYV29kcWxYVC0tRFk0VGU1MmNTZHNWRzhiRXlyQ1RMRjI2UGVSWk9PNWZfVVJ4S0tTdG5LQWFpRktsZ3hEVjF0Vm1WSXlZR1FrbGg1SHNGeFBjR29XOUhSQ2REbGRNeGI1NllKREI4NWpaZEJsNDlMaDBteEY5NzhiU0tWeVpQQkF0cXZsR0xEeWlYVjhZdGYwbGlJS0VTaFpZZ1d1aFZJRnczWjg0aGxpWndtQmxQcGc?oc=5",
+      "date": "2026-06-09",
+      "publication": "Columbia University Mailman School of Public Health"
     },
     {
       "headline": "NYC Health Department releases Congestion Relief Zone air quality study results",
@@ -347,16 +357,10 @@
       "publication": "Fortune"
     },
     {
-      "headline": "Congestion Relief Zone Results After Year One Suggest Notable Road Safety Benefits",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTGYzaVk5dFNlSWVYV29kcWxYVC0tRFk0VGU1MmNTZHNWRzhiRXlyQ1RMRjI2UGVSWk9PNWZfVVJ4S0tTdG5LQWFpRktsZ3hEVjF0Vm1WSXlZR1FrbGg1SHNGeFBjR29XOUhSQ2REbGRNeGI1NllKREI4NWpaZEJsNDlMaDBteEY5NzhiU0tWeVpQQkF0cXZsR0xEeWlYVjhZdGYwbGlJS0VTaFpZZ1d1aFZJRnczWjg0aGxpWndtQmxQcGc?oc=5",
-      "date": "2026-06-09",
-      "publication": "Columbia University Mailman School of Public Health"
-    },
-    {
       "headline": "NYC congestion pricing results one year later: Has the toll been a success?",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQXzRCMFBtb1FlQm1NYVRPdXhUX0tkTUJDOTg0TFYzazVzTlNHRGVNU1JhLXE0cV9aTXZXb3N3OU9QVDZvZmcwRnc2Z2lsby1uMHlZcXRhVFhTaVZaRGNNZV9SWERELUhCQ180UnU4VUdhdUMyZEZjeVVKcEh4aHRGWVROYmotY09iaUh4QkxycVk2R0NNOExxeWp0V0FQQdIBowFBVV95cUxPaXpEQmIxVXFjeDlad2pzOWxVV0NlV0gyZll4VDRLM2Fwd0hjZmhFWGFVbmxxaEZVWkhycXozWENEMXFiX1VYYWNIdkxCMDgtSW5yTGZ2V3FSR1Q3OWRvS2I0djBSTVB5bTVVU28wWEltLXE2UWw5ZkRqSUhuZ3RkTHNBVm1ReVl4OU90ODZwQkRLSGllSDlnNFR4SzNOSnZLZHZn?oc=5",
       "date": "2026-01-05",
-      "publication": "ABC7 Eyewitness News"
+      "publication": "ABC7 New York"
     },
     {
       "headline": "New York's Congestion Pricing Is Working. Five Charts Show How",
